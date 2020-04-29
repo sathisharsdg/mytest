@@ -1,0 +1,83 @@
+
+@media(max-width:768px){
+    /*Banner Section*/
+    .container-fluid.main-banner {
+        background-image: url('images/main-banner.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        max-width: 100%;
+        background-position: top;         
+    } 
+    .main-menuadjust.relative {
+        width: 100%;
+        background-color: #0a0a0a00;
+    }
+    /*Banner Section*/
+
+    /*Top-nav-section*/
+    .logo-link {        
+        display: none!important;
+    }
+    .signup-links a {
+        background-color: #00a99d;
+        padding: 0.5rem 2rem;
+    }
+    .bg-dark {
+    background-color: #fff!important;
+}
+.main-menu {
+    display: none!important;
+}
+    /*top-navsection*/
+
+    /*upcoming section*/
+    .col {
+        -ms-flex-preferred-size: 0;
+        flex-basis: auto;
+        -ms-flex-positive: 1;
+        flex-grow: 1;
+        max-width: 100%;
+    }
+    .upcoming-class h1.light-blue {       
+        width: 100%;
+        text-align: center;
+    }
+
+      /*upcoming section*/
+
+      /*booking section */
+      section.booking-class {
+        background-image: url('images/booking-class-bg.jpg');
+        height: 75vh;
+    }
+    a.blue-bg-text {
+        background-color: #00a99d;
+        padding: 1rem 3rem;
+        position: absolute;
+        top: 0rem;
+        font-size: 3rem;
+        left: 5rem;
+    }
+      /*booking section*/
+  
+}
+
+@media(min-width:768px){
+    .logo-link-mobile{
+        display: none!important;
+    }
+    ul.main-menu-links-mobile {
+        padding-left: 0rem;
+        display: none;
+    }    
+
+}
+@media(max-width:580px){
+        /*footer-section*/
+        ul.footer-links {
+            display: flex;
+            flex-direction: column;
+        }
+          /*footer-section*/
+}
+

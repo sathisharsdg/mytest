@@ -1,0 +1,238 @@
+/* comon UI Start*/
+@font-face {
+    font-family: "MyriadPro";
+    src: url("../fonts/MyriadPro-Regular/MyriadPro-Regular.eot"); /* IE9 Compat Modes */
+    src: url("../fonts/MyriadPro-Regular//MyriadPro-Regular.eot?#iefix")
+        format("embedded-opentype"),
+      /* IE6-IE8 */ url("../fonts//MyriadPro-Regular/MyriadPro-Regular.otf")
+        format("opentype"),
+      /* Open Type Font */
+        url("../fonts//MyriadPro-Regular/MyriadPro-Regular.svg") format("svg"),
+      /* Legacy iOS */ url("../fonts//MyriadPro-Regular/MyriadPro-Regular.ttf")
+        format("truetype"),
+      /* Safari, Android, iOS */
+        url("../fonts//MyriadPro-Regular/MyriadPro-Regular.woff") format("woff"),
+      /* Modern Browsers */
+        url("../fonts/MyriadPro-Regular/MyriadPro-Regular.woff2") format("woff2"); /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "Xirod";
+    font-weight: normal;
+    font-style: normal;
+    src: url("../fonts/Xirod/xirod.eot"); /* IE9 Compat Modes */
+    src: url("../fonts/Xirod/xirod.eot#iefix") format("embedded-opentype"),
+      /* IE6-IE8 */ url("../fonts//Xirod/xirod.otf") format("opentype"),
+      /* Open Type Font */ url("../fonts//Xirod/xirod.svg") format("svg"),
+      /* Legacy iOS */ url("../fonts//Xirod/xirod.ttf") format("truetype"),
+      /* Safari, Android, iOS */ url("../fonts/Xirod//xirod.woff") format("woff"),
+      /* Modern Browsers / url("../fonts/Xirod//xirod.woff2") format("woff2"); / Modern Browsers */    
+    
+  }  
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 62.5%;
+  }
+  html 
+  body {
+    margin: 0;  
+    font-size: 1.6rem;
+    font-family: "MyriadPro", "Xirod", sans-serif;
+  }
+a:hover{
+    text-decoration: none!important; 
+}
+ul{
+    list-style: none;
+}
+.relative{
+    position: relative;
+}
+.p-l-0{
+    padding-left: 0px!important;
+}
+/* comon UI End*/
+
+/*Menu section start*/
+.bg-dark {
+    background-color: #212121!important;
+}
+.logo-link {
+    font-size: 3rem;
+    color: #00a99d!important;
+    font-weight: bold;
+    font-family: "Xirod", sans-serif !important;
+}
+.logo-link-mobile {
+    font-size: 3rem;
+    color: #00a99d!important;
+    font-weight: bold;
+}
+.signup-links a {
+    background-color: #00a99d;
+    padding: 1rem 3rem;
+    color: #fff!important;
+    font-size: 1.3rem;
+} 
+.main-menu {
+    display: flex;
+    /* float: right; */
+    position: absolute;
+    right: 0;    
+}
+ul.main-menu-links {
+    display: inline-flex;
+}
+ul.main-menu-links li {
+    padding: 1rem 3rem;
+}
+ul.main-menu-links li a {
+    font-size: 1.8rem;
+    color: #fff;
+}
+ul.main-menu-links-mobile {
+    padding-left: 0rem;
+}
+ul.main-menu-links-mobile a {
+    line-height: 1.6em;
+    color: #5f5353;
+    font-size: 1.6rem;   
+}
+.main-menuadjust.relative {
+    width: 100%;
+    background-color: #0a0a0a57;
+    position: absolute;
+    z-index: 9999999!important;
+    height: 50px;
+}
+/*Menu section end*/
+
+/*Banner Section start*/
+.container-fluid.main-banner {
+    background-image: url('images/main-banner.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;  
+    background-attachment: fixed;  
+    background-size: cover;
+    height:85vh;
+    max-height: 850px;
+    
+}
+/*Banner Section end*/
+
+/*upcoming class section start*/
+.upcoming-class {
+    padding-left: 0px!important;
+}
+.upcoming-class h1.light-blue {
+    color: #ffffff;
+    text-transform: uppercase;
+    position: absolute;
+    top: -5rem;
+    font-weight: 700;
+    background-color: #00a99d;
+    padding: 1rem 3rem;
+}
+.upcoming-class .col.col1 {
+    padding: 0px;
+} 
+.blue-text {
+    color: #00a99d;   
+}
+h3.blue-text {
+    color: #00a99d;
+    font-size: 2.2rem;
+    font-weight: 500;
+}
+.upcoming-class h3.blue-text {
+    padding-top: 3rem;
+}
+.upcoming-class .col {     
+    padding: 0px;
+}
+img.img-fluid.more-item {
+    width: 3rem;
+}
+/*upcoming class section end*/
+
+/*booking class-sectionm start*/
+section.booking-class {
+    background-image: url(images/booking-class-bg.jpg);
+    height: 210px;
+    background-size: cover;
+    background-attachment: fixed;    
+    margin: 6rem 0 10rem 0;
+}
+.white-text {
+    color: #fff;
+}
+.booking-class .white-text {
+    color: #fff;
+}
+.booking-class h1.white-text{
+    color: #fff;
+    font-size: 3.2rem;
+    text-transform: uppercase;
+    padding: 2em 1em;
+}
+a.blue-bg-text {
+    background-color: #00a99d;
+    padding: 1rem 3rem;
+    position: absolute;
+    top: 6rem;
+    font-size: 3rem;
+}
+/*booking class-sectionm end*/
+
+
+/*blog-section start*/
+.latest-post-heading h1.light-blue {
+    color: #ffffff;
+    text-transform: uppercase;
+    position: absolute;
+    top: -5rem;
+    font-weight: 700;
+    background-color: #00a99d;
+    padding: 1rem 1rem;
+}
+section.latest-post {
+    background-color: #f1f1f1;
+    padding: 1em;
+}
+.blog-content {
+    padding: 2.5em 5em;
+    background-color: white;
+}
+.readmore-bg {
+    background-color: #00a99d;
+    padding: 1rem 3rem;
+    font-size: 1.8rem;
+}
+.divider-gap {
+    height: 15px;
+}
+
+/*blog-sectionm end*/
+
+/*footer section start */
+ul.footer-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+ul.footer-links a {
+    padding: 1.5rem;
+    color: #fff;
+}
+section.footer-section {
+    background-color: #252525;
+    padding: 2rem;
+}
+/* footer ends */
