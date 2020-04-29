@@ -60,6 +60,7 @@ ul{
 /* comon UI End*/
 
 /*Menu section start*/
+ 
 .bg-dark {
     background-color: #212121!important;
 }
@@ -219,6 +220,59 @@ section.latest-post {
 }
 
 /*blog-sectionm end*/
+
+
+/* ABOUT US PAGE CSS STRATS HERE  */
+
+/* banner section starts */
+.about-banner-section {
+    background-image: url('images/about-banner.jpg');
+    background-attachment: fixed;
+    height: 70vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about-banner-section h2.blue-text {
+    position: absolute;
+    top: 15rem;
+    left: 5rem;
+    font-size: 5rem;
+    font-weight: 700;
+}
+/* banner section ends */
+
+/*about banner content*/
+h1.heading-text-blue {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 3rem;
+    font-size: 3rem;
+}
+.about-content.inner-content {
+    padding: 2rem 1rem;
+}
+section.about-content p {
+    font-size: 1.8rem;
+}
+section.about-content h1.white-text {
+    background-color: #00a99d;
+    padding: 5rem;
+    font-size: 5rem;
+}
+section.about-content {
+    padding: 4rem;
+}
+.sports-image {
+    padding: 5rem;
+}
+section#about-booking-section {
+    margin-bottom: 0;
+}
+/*about banner content*/
+
+/* ABOUT US PAGE CSS ENDS  HERE  */
+
 
 /*footer section start */
 ul.footer-links {
