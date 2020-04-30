@@ -248,12 +248,14 @@ h1.heading-text-blue {
     text-transform: uppercase;
     padding: 3rem;
     font-size: 3rem;
+    color: #fff;
 }
 .about-content.inner-content {
     padding: 2rem 1rem;
 }
 section.about-content p {
-    font-size: 1.8rem;
+    font-size: 1.7rem;
+    color: #fff;
 }
 section.about-content h1.white-text {
     background-color: #00a99d;
@@ -261,7 +263,7 @@ section.about-content h1.white-text {
     font-size: 5rem;
 }
 section.about-content {
-    padding: 4rem;
+    background-color: #404040;
 }
 .sports-image {
     padding: 5rem;
