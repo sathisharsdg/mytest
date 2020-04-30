@@ -421,6 +421,57 @@ ul.equipment li {
 
 
 
+/*Power main page css Starts */
+
+/*Power main banner section start*/
+.power-main-section {
+    background-image: url(images/power-zone-main.jpg);
+    background-attachment: fixed;
+    height: 70vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+} 
+
+ 
+.power-main-heading {
+    padding: 0rem 2rem;
+}
+.power-main-heading h1.blue-text {
+    font-size: 4rem;
+    font-weight: 700;
+    position: absolute;
+    top: -6rem;
+}
+.bottom-powerbanner-content p {
+    padding: 3rem ;
+    background-color: #343434;
+    color: #fff;
+    margin-bottom: 0;
+}
+/*Power main banner section end*/
+section.power-zone-content {
+    background-color: #1f1f1f;
+}
+
+.power-zone-content h1.blue-text {
+    font-size: 3rem;
+    font-weight: 600;
+}
+.power-zone-content p {
+    color: #fff;
+}
+
+/*Power inner content start */
+section.power-zone-content .row {
+    padding: 3rem 3rem;
+}
+/* power inner content end */
+
+
+/*Power main page css Ends */
+
 /*footer section start */
 ul.footer-links {
     display: flex;

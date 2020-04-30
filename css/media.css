@@ -108,6 +108,18 @@
     }
       /*booking section*/
   
+
+      /* power main page start */
+      .power-main-section {
+        background-image: url(images/power-zone-main.jpg);
+        background-attachment: fixed;
+        height: 100vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+     /* power main page end */
 }
 
 @media(min-width:768px){
