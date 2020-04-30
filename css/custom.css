@@ -276,6 +276,39 @@ section#about-booking-section {
 /* ABOUT US PAGE CSS ENDS  HERE  */
 
 
+/*MEET TEAM CSS STARTS */
+
+/*meet team Banner Section start */
+ .meet-team-section  h2.blue-text {
+    position: absolute;
+    top: 15rem;
+    left: 5rem;
+    font-size: 5rem;
+    font-weight: 700;
+}
+.meet-team-section {
+    background-image: url(images/meet-team-bg.jpg);
+    background-attachment: fixed;
+    height: 70vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.meet-team-members {
+    padding: 3rem 1em;
+    background-color: #1d1d1d;
+}
+.meet-team-members h3.blue-text {
+    padding: 1rem 0 0;
+}
+/*meet team Banner Section end */
+
+/*MEET TEAM CSS ENDS */
+
+
+
+
+
 /*footer section start */
 ul.footer-links {
     display: flex;

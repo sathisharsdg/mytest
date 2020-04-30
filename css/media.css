@@ -15,9 +15,9 @@
     /*Banner Section*/
 
     /*Top-nav-section*/
-    /* .logo-link {        
+    .logo-link {        
         display: none!important;
-    } */
+    }
     .signup-links a {
         background-color: #00a99d;
         padding: 0.5rem 2rem;
@@ -25,9 +25,9 @@
     .bg-dark {
     background-color: #fff!important;
 }
-/* .main-menu {
+.main-menu {
     display: none!important;
-} */
+}
     /*top-navsection*/
 
     /*upcoming section*/
