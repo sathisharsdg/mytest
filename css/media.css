@@ -1,5 +1,53 @@
 
+@media(max-width:1100px)
+{
+    /*Power zone Page */
+    .power-book-section section.booking-class {
+        background-image: url(images/booking-class-bg.jpg);
+        height: 40rem!important;
+        background-size: cover;
+        background-attachment: fixed;
+        margin: 0rem 0 0rem 0 !important;
+    }
+     /*Power zone Page */
+
+     /*booking now new section*/
+     .booking-now-btn a.book-btn{
+     }
+     section.booking-class-new h1.white-text {
+        font-size: 2.5rem;
+        text-transform: uppercase;
+    }
+     /*booking now new section*/
+     
+}
 @media(max-width:768px){
+
+    /*upcoming button section heading start*/
+    .latest-post-heading h1.light-blue {
+    color: #ffffff;
+    text-transform: uppercase;
+    position: absolute;
+    top: 5rem;
+    font-weight: 700;
+    background-color: #00a99d;
+    padding: 1rem 1rem;
+    font-size: 1.8rem;
+    text-align: center;
+    left: 4rem;
+    }
+    /*upcoming button section heading end*/
+    /**/
+    /*book class new btn start*/
+    section.booking-class-new h1.white-text {
+        font-size: 1.5rem;
+        text-transform: uppercase;
+    }
+    .booking-now-btn .btn {
+        font-size: 1.5rem;
+        background-color: #00a99d;
+    }
+    /*book class new btn end */
     /*Banner Section*/
     .container-fluid.main-banner {
         background-image: url('images/main-banner.jpg');
@@ -52,10 +100,10 @@
     }
     a.blue-bg-text {
         background-color: #00a99d;
-        padding: 1rem 3rem;
+        padding: 1rem 2rem;
         position: absolute;
-        top: 0rem;
-        font-size: 3rem;
+        top: -5rem;
+        font-size: 2rem;
         left: 5rem;
     }
       /*booking section*/
@@ -73,6 +121,16 @@
 
 }
 @media(max-width:580px){
+    /*booking class section */
+    section.booking-class-new h1.white-text {
+        font-size: 1.2rem;
+        text-transform: uppercase;
+    }
+    .booking-now-btn .btn {
+        font-size: .9rem;
+        background-color: #00a99d;
+    }
+    /*booking class section */
         /*footer-section*/
         ul.footer-links {
             display: flex;
@@ -83,7 +141,20 @@
             align-items: flex-start;
             justify-content: center;
             flex-wrap: wrap;
+            padding-left: 0;
         }
           /*footer-section*/
 }
 
+@media(max-width:420px){
+    /*booking class section */
+    section.booking-class-new h1.white-text {
+        font-size: 1rem;
+        text-transform: uppercase;
+    }
+    section.booking-class-new {
+       
+        padding: 4rem 0rem;
+    }
+    /*booking class section */
+}

@@ -160,15 +160,34 @@ h3.blue-text {
 img.img-fluid.more-item {
     width: 3rem;
 }
+.upcoming-class {
+    padding: 0rem 0rem 3rem 0rem;
+}
 /*upcoming class section end*/
 
 /*booking class-sectionm start*/
 section.booking-class {
     background-image: url(images/booking-class-bg.jpg);
-    height: 210px;
     background-size: cover;
     background-attachment: fixed;    
-    margin: 6rem 0 10rem 0;
+    margin: 0rem 0 10rem 0;
+}
+
+section.booking-class-new {
+    background-image: url(images/booking-class-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;    
+    margin: 0rem;
+    padding: 4rem 2rem;
+}
+
+.booking-now-btn .btn{
+    font-size: 2rem;
+    background-color: #00a99d;
+}
+section.booking-class-new h1.white-text {
+    font-size: 3rem;
+    text-transform: uppercase;
 }
 .white-text {
     color: #fff;
@@ -184,11 +203,26 @@ section.booking-class {
 }
 a.blue-bg-text {
     background-color: #00a99d;
-    padding: 1rem 3rem;
+    padding: .5rem 1.2rem;
     position: absolute;
-    top: 6rem;
-    font-size: 3rem;
+    top: 6.5rem;
+    font-size: 2.5rem;
 }
+
+
+.booking-flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.booking-now-btn a.book-btn {
+    background-color: #00a99d;
+    color: #fff;
+    padding: 1rem 2rem;
+    font-size: 2.5rem;
+}
+
+
 /*booking class-sectionm end*/
 
 
@@ -197,7 +231,7 @@ a.blue-bg-text {
     color: #ffffff;
     text-transform: uppercase;
     position: absolute;
-    top: -5rem;
+    top: 2rem;
     font-weight: 700;
     background-color: #00a99d;
     padding: 1rem 1rem;
@@ -218,7 +252,20 @@ section.latest-post {
 .divider-gap {
     height: 15px;
 }
-
+.latest-post h1.light-blue {
+    color: #ffffff;
+    text-transform: uppercase;
+    position: absolute;
+    top: 2rem;
+    font-weight: 700;
+    background-color: #00a99d;
+    padding: 1rem 2rem;
+    z-index: 9;
+    left: 1.4rem;
+}
+section.latest-post .row:first-child {
+    padding-top: 8rem;
+}
 /*blog-sectionm end*/
 
 
@@ -302,10 +349,75 @@ section#about-booking-section {
     padding: 1rem 0 0;
 }
 /*meet team Banner Section end */
-
 /*MEET TEAM CSS ENDS */
 
 
+
+/*POWER ZONE PAGE CSS STATRS */
+
+/*power zone banner start */
+.power-zone-section {
+    background-image: url(images/power-zone.jpg);
+    background-attachment: fixed;
+    height: 70vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.power-zone-section h2.blue-text {
+    position: absolute;
+    top: 15rem;
+    left: 5rem;
+    font-size: 5rem;
+    font-weight: 700;
+}
+.power-book-section section.booking-class {
+    background-image: url(images/booking-class-bg.jpg);
+    height: 20rem!important;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0rem 0 0rem 0 !important;
+}
+
+/*power zone banner end */
+
+/*Power zone card section Start*/
+.power-zone-card-section {
+    padding: 6rem 3rem;
+}
+.power-zone-innercontent h2 {
+    font-size: 2.5rem;
+}
+.power-zone-innercontent span {
+    padding-right: .5em;
+}
+.power-zone-innercontent p {
+    padding: 1rem 0;
+}ul.equipment {
+    display: flex;
+    align-items: flex-start;
+    padding-left: 0;
+    padding-top: 2rem;
+}
+ul.equipment img {
+    width: 2.5rem;
+}
+ul.equipment li {
+    padding-right: 1rem;
+}
+.card-section-additem .more-item {
+    position: absolute;
+    right: 0;
+    width: 5rem!important;
+    bottom: 2rem;
+}
+.power-zone-card-section .row {
+    padding-bottom: 5rem;
+}
+/*Power zone card section End*/
+
+
+/*POWER ZONE PAGE CSS ENDS */
 
 
 
