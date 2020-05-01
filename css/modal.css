@@ -1,0 +1,131 @@
+/*Sign in css start */
+.btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    font-size: 2rem;
+}
+div#signinmodal{
+    position: relative;
+}
+div#signinmodal .modal-content {
+    background-color: #151515de;
+    padding: 2rem;
+    margin: 0 auto;
+    width: 70%;
+    min-height: 70vh;
+}
+h1.sign-heading {
+    color: #00a99d;
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 1rem;
+}
+.sign-in {
+    font-size: 1.5rem;
+    padding: 3rem;
+    border-radius: 0;
+    background-color: #4d4d4d;
+    border: none;
+}
+div#signinmodal p.text-white {  
+    padding-left: 1rem;
+    font-size: 2rem;
+}
+div#signinmodal .form-group {
+    margin-bottom: 2rem;     
+}
+::placeholder { 
+    color:#fff!important;
+    opacity: 1; 
+  }
+
+  div#signinmodal .form-control:focus {
+    color: #ffffff;
+    background-color: #4d4d4d;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
+.sing-in-btn {
+    background-color: #00a99d;
+    border: none;
+    border-radius: 0;
+}
+.sign-bottom {
+    display: flex;
+    justify-content: space-between;   
+}
+.sign-bottom label.form-check-label {
+    color: #fff;
+    font-size: 1.4rem;
+}
+.sign-bottom input#exampleCheck1 {
+    position: absolute;
+    right: 9rem;
+    height: 1.9rem;
+    width: 1.5rem;
+}
+.sign-bottom p.text-right {
+    color: #fff;
+    font-size: 1.4rem;
+}
+.sign-bottom a {
+    color: #fff;
+}
+.fb-section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2em 0;
+}
+.fb-section img.img-fluid {
+    width: 2.5rem;
+}
+.fb-section p {
+    color: #Fff;
+    margin-bottom: 0;
+    font-size: 1.4rem;
+}
+.sign-bottom .form-check {
+    position: relative;
+    display: block;
+    padding-left: 2.25rem;
+}
+.sing-in-btn:hover {
+    background-color: #068b9c;
+}
+/* sign in css end */
+
+
+/* sign up css start */
+div#signupmodal .modal-content {
+    background-color: #151515de;
+    padding: 2rem;
+    margin: 0 auto;
+    width: 90%;
+    min-height: 70vh;
+}
+h1.signup-heading {
+    color: #00a99d;
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 1rem;
+}
+small.email-helps {
+    color: #fff;
+}
+.premium-btn {
+    float: right;
+}
+.captcha{
+    text-align: center;
+}
+small.info-term {
+    color: #fff;
+}
+/* sign up css end */
+
+

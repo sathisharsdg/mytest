@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>   
+    <meta charset="utf-8">    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">   
+    <title>Home page</title>
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="css/media.css">  
+    <link rel="stylesheet" href="css/modal.css">
+    <script src="js/google.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="https://use.fontawesome.com/36667026bc.js"></script>
+    
+  </head>
+  <body>
+           
+  <!-- sign in modal start-->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#signinmodal">
+    SIGN IN MODAL
+</button>
+
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#signupmodal">
+    REGISTER
+</button>
+  
+  
+  <!-- Modal -->
+  <div class="modal fade" id="signinmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <h1 class="sign-heading">E3 <span class="white-text">Fitness</span></h1> <br>
+        <p class="text-white">SIgn In</p>
+        <div class="modal-body">
+            <form>
+                <div class="form-group">                   
+                  <input type="email" class="form-control sign-in" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Email or Phone Number ">
+                   
+                </div>
+                <div class="form-group">                 
+                  <input type="password" class="form-control sign-in" id="exampleInputPassword1" placeholder="Enter Password">
+                </div>            
+                <button type="submit" class="btn btn-primary btn-block sing-in-btn">SIGN IN</button><br>
+                <div class="sign-bottom">               
+                   <div class="form-group form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Remember me</label>
+                  </div>
+                   <p class="text-right"><a href="#">Sign Up</a></p>                  
+                </div>
+                <div class="fb-section">
+                    <img src="images/fb-icon.svg" alt="" class="img-fluid">
+                    <p>Sign in with facebbok</p>
+                 </div>
+              </form>          
+        </div> 
+      </div>
+    </div>
+  </div>  
+    <!-- sign in modal end-->
+
+
+    <!--singup modal start-->
+
+    <div class="modal fade" id="signupmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <h1 class="signup-heading">Regiter as a member</h1> <br>          
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">                   
+                        <input type="text" class="form-control sign-in" id="exampleInputname" placeholder="Enter Name ">                       
+                    </div>
+                    <div class="form-group">                   
+                        <input type="text" class="form-control sign-in" id="exampleInputname" placeholder="Enter Phone Number (optional) ">                       
+                    </div>
+                    <div class="form-group">                   
+                      <input type="email" class="form-control sign-in" id="exampleInputEmail1"  placeholder="Enter Email or Phone Number "> 
+                      <small class="email-helps">Please ensure that you have entered correct email</small>                     
+                    </div><br>
+                    <div class="form-group">                 
+                      <input type="password" class="form-control sign-in" id="exampleInputPassword1" placeholder="Enter Password">
+                    </div>  
+                    <div class="form-group">                 
+                        <input type="password" class="form-control sign-in" id="exampleInputPassword1" placeholder="Confirm Password">
+                    </div>  
+                    <div class="form-group captcha">
+                        <img src="images/captcha.png" class="img-fluid" alt="">
+                    </div>       
+                    <div class="form-group">                   
+                        <input type="text" class="form-control sign-in" id="exampleInputname" placeholder="Enter code above ">                       
+                    </div>
+                    <button type="submit" class="btn btn-primary premium-btn sing-in-btn">Go Premium</button><br><br>
+                    <small class="info-term">For the full <a href="#">terms and conditions</a>, please refer to the Terms and Conditions for Live </small>
+      
+                  </form>          
+            </div> 
+          </div>
+        </div>
+      </div>  
+     <!--singup modal end-->
+
+  <script src="js/wow.min.js"></script>
+  <script>new WOW().init();</script>
+  <script src="js/bootstrap.min.js"></script>
+  </body>
+</html> 
