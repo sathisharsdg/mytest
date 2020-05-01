@@ -468,9 +468,101 @@ section.power-zone-content .row {
     padding: 3rem 3rem;
 }
 /* power inner content end */
-
-
 /*Power main page css Ends */
+
+
+/* BLOG PAGE CSS */
+/*blog-banner */
+.blog-main-section {
+    background-image: url('images/banner-bg-blog.jpg');
+    background-attachment: fixed;
+    height: 90vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+} 
+/*blog banner */
+
+/*latest news heading start */
+.blog-latest-news .heading-part h1.black-text {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 6rem;
+}
+section.blog-latest-news{
+    padding: 2rem;
+}
+.blog-latest-news .line-part {
+    border-top: 4px solid #454545;
+    align-items: center;
+}
+.blog-latest-news .heading-part h1.black-text:after {
+    height: 0.5rem;
+    display: block;
+    width: 100px;
+    background: #00a99d;
+    border-right: 1px white;
+    content: '';
+}
+.feed-images img {
+    width: 25rem;
+}
+.feed-images {
+    text-align: center;
+}
+.blog-latest-news .latest-feed .row {
+    padding: 1rem;
+}
+/*latest news heading end
+
+
+/*food diet css start*/
+.food-diet-news .heading-part h1.black-text:after {
+    height: 0.5rem;
+    display: block;
+    width: 100px;
+    background: #00a99d;
+    border-right: 1px white;
+    content: '';
+}
+.food-diet-news.relative {
+    padding: 2rem;
+}
+.food-diet-news .heading-part h1.black-text {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 6rem;
+}
+/*food diet css end*/
+
+/*style gear section start*/
+.stylegear-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.stylegear-container .inner-part img {
+    width: auto;
+    padding: 0 1rem;
+}
+section.latest-feed h2.text-center {
+    padding: 3rem;
+    font-size: 2.5rem;
+}
+section.latest-feed p.text-center {
+    padding: 3rem;
+    font-size: 1.6rem;
+}
+.right-side-health-feed .flex-container {
+    display: flex;   
+    padding: 2rem 0;
+}
+.right-side-health-feed img {
+    padding: 0 3rem;
+}
+/*style gear section end*/
+/* BLOG PAGE CSS */
+
 
 /*footer section start */
 ul.footer-links {

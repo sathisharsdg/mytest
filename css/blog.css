@@ -1,0 +1,9 @@
+.blog-main-section {
+    background-image: url('images/banner-bg-blog.jpg');
+    background-attachment: fixed;
+    height: 90vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+} 

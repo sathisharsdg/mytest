@@ -19,6 +19,20 @@
         text-transform: uppercase;
     }
      /*booking now new section*/
+        /*blog css */
+        .right-side-health-feed .flex-container {
+            display: flex;
+            padding: 2rem 0;
+            flex-wrap: wrap;
+        }
+        .right-side-health-feed img {
+            padding: 2rem 0rem;
+        }
+        .feed-images img {
+            width: 17rem;
+        }
+       
+         /*blog css */
      
 }
 @media(max-width:768px){
@@ -120,6 +134,10 @@
         position: relative;
     }
      /* power main page end */
+
+  
+
+  
 }
 
 @media(min-width:768px){
@@ -143,6 +161,19 @@
         background-color: #00a99d;
     }
     /*booking class section */
+
+       /*blog page css */
+       .feed-images p {
+        word-break: break-all!important;
+        word-wrap: break-word;
+    }
+    .feed-images img {
+        width: 100%;
+    }
+
+
+     /* blog page css */
+
         /*footer-section*/
         ul.footer-links {
             display: flex;
