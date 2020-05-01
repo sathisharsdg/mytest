@@ -129,3 +129,136 @@ small.info-term {
 /* sign up css end */
 
 
+/*account seclection start */
+div#accountmodal .modal-content {
+     background-color: #151515de;
+    padding: 2rem;
+    margin: 0 auto;
+    width: 100%;
+    min-height: 70vh;
+}
+.account-selection thead {
+    background-color: #00a99d;
+    border: 0px;
+}
+.account-selection thead th {
+    border: 1px solid #000000;
+    padding: .8rem;
+    text-align: center;
+    color: #000;
+}
+.account-selection td {
+    color: #fff;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.account-selection th.inner-head {
+    background-color: #808080;
+}
+.account-selection tr.grey {
+    background-color: #666666;    
+}
+tr.dark-grey {
+    background-color: #333333;
+}
+.account-selection .fa {
+    font-size: 3rem;
+    color: #00a99d;    
+}
+.account-selection tr.blue-bg {
+    background-color: #00a99d;     
+}
+.account-selection tr.blue-bg td {
+    color: #000;
+    border-left: 1px solid #000;
+}
+@media (min-width: 576px){
+div#accountmodal .modal-dialog {
+    max-width: 900px;
+    margin: 1.75rem auto;
+}
+}
+/*account seclection end */
+
+/*team modal css  start*/
+div#teammodal .modal-content {
+    background-color: #151515de;
+    padding: 2rem;
+    margin: 0 auto;
+    width: 100%;
+    min-height: 70vh;
+}
+.team-detail-container {
+    display: flex;
+    justify-content: start;
+}
+.team-detail-container h1.blue-text {
+    padding: 0 2rem;
+}
+.team-detail-container .team-info-content small {
+    color: #fff;
+    font-size: 1.7rem;
+}
+.team-info img.img-fluid {
+    width: 100rem;
+}
+.team-info-content p {
+    color: #fff;
+    font-size: 1.4rem;
+    padding: 0 2rem;
+}
+.team-detail-container2 {
+    display: flex;
+    justify-content: start;
+    padding: 1rem 0;
+}
+.team-detail-container2 .line {
+    border-bottom: 3px solid #fff;
+    height: 1.2rem;
+    width: 80%;
+    margin: 0 auto;
+}
+.team-detail-container3 {
+    display: flex;
+    justify-content: start;
+}
+.img-info img.img-fluid.team-img {
+    width: 12rem;
+}
+ 
+.img-info img.img-fluid.item-add {
+    width: 3rem;
+    margin: 2rem auto;
+    cursor: pointer;
+}
+.team-detail-container3 .img-info {
+    text-align: center;    
+    padding: 2rem 1rem;
+}
+@media(max-width:768px){
+    .team-detail-container {
+        display: flex;
+        justify-content: start;
+        flex-wrap: wrap;
+    }
+    .team-info img.img-fluid {
+        width: 30rem;
+        text-align: -webkit-center;
+    }
+    .team-detail-container2 .line {
+        border-bottom: 3px solid #fff;
+        height: 1.2rem;
+        width: 60%;
+        margin: 0 auto;
+    }   
+    
+}
+@media (min-width: 576px){
+ div#teammodal .modal-dialog {
+    max-width: 75rem;
+    margin: 1.75rem auto;
+}
+ 
+ 
+}
+/*team modal css end */
