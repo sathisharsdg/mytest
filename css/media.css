@@ -1,4 +1,17 @@
 
+
+
+@media(max-width:1200px){
+ 
+/*shop Page start */
+    .shop-inner-content .flex-container {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+/*shop Page end */
+}
+
 @media(max-width:1100px)
 {
     /*Power zone Page */

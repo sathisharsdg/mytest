@@ -517,6 +517,38 @@ section.blog-latest-news{
 /*latest news heading end
 
 
+
+/*SHOP PAGE CSS */
+
+/* shop banner start */
+.shop-main-section {
+    background-image: url('images/banner-bg-shoip.jpg');
+    background-attachment: fixed;
+    height: 90vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.shop-inner-content .flex-container a {
+    color: #484848;
+}
+.shop-inner-content .flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+.shop-inner-content {
+    padding: 5rem 2rem;
+}
+.shop-inner-content .flex-container .shop-product.text-center {
+    padding: 2rem 2rem;
+    text-align: center;
+}
+/* shop banner end */
+
+
+/* SHOP PAGE CSS*/
+
 /*food diet css start*/
 .food-diet-news .heading-part h1.black-text:after {
     height: 0.5rem;
