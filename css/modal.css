@@ -250,15 +250,113 @@ div#teammodal .modal-content {
         height: 1.2rem;
         width: 60%;
         margin: 0 auto;
+    }    
+}
+@media(max-width:520px){
+    .team-detail-container3 {
+        display: flex;
+        justify-content: start;
+        flex-wrap: wrap;
     }   
-    
+     
 }
 @media (min-width: 576px){
  div#teammodal .modal-dialog {
     max-width: 75rem;
     margin: 1.75rem auto;
-}
- 
- 
+} 
 }
 /*team modal css end */
+
+/*product detail css start */
+div#productmodal .modal-content {
+    background-color: #fff;
+    padding: 2rem;
+    margin: 0 auto;
+    width: 100%;
+    min-height: 70vh;
+}
+.product-details-conatiner {
+   display: flex;
+   justify-content: space-around;
+}
+.inner-img-details img.img-fluid {
+    width: 13rem;
+}
+h2.price-tag {
+    color: #770606;
+    font-size: 2.5rem;
+}
+.review-section {
+    display: flex;
+    justify-content: space-between;
+}
+.review-section a {
+    color: #00a99d;
+}
+.custom-select {    
+    font-size: 1.5rem;
+}
+.quantity {
+    display: flex;
+    justify-content: space-between;
+}
+.quantity a {
+    border: 1px solid #454545;
+    padding: .2rem 1.5rem;
+    font-size: 2rem;
+    color: #000;
+    font-weight: 700;
+}
+.number {
+    border: 1px solid #454545;
+    padding: .2rem 2.5rem;
+    font-size: 2rem;
+    color: #000;     
+}
+.quantity .sing-in-btn {
+    font-size: 1.5rem;
+}
+.product-first {
+    flex: 2.5;
+}
+.product-second {
+    flex: 2;
+}
+ul.iner-product {
+    list-style: disc;
+    padding: 1rem 2rem;
+}
+.product-second h3 {
+    font-weight: 600;
+}
+.product-btn {
+    flex: 1.5;
+    margin-left: 2rem;
+}
+@media(max-width:768px){
+    .quantity .sing-in-btn {
+        font-size: 1rem;
+        padding: 0;
+    }
+}
+@media(max-width:576px){
+    .inner-img-details{
+        flex-wrap: wrap;
+    }
+    .product-details-conatiner {
+        flex-wrap: wrap;
+    }
+    .product-first, .product-second {
+        flex: auto!important;
+    }
+   
+}
+@media (min-width: 576px){
+    div#productmodal .modal-dialog {
+    max-width: 85rem;
+    margin: 1.75rem auto;
+}
+}
+
+/*product detail css end */

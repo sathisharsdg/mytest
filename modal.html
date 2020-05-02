@@ -30,6 +30,9 @@
 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#teammodal">
   TEAM DETAIL
 </button>
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#productmodal">
+  PRODUCT DETAIL
+</button>
   
   
   <!-- Modal -->
@@ -248,7 +251,67 @@
       </div> 
       <!--Team detail modal end-->
        
+      
+      
+      <!--Product detail modal start-->
+      <div class="modal fade" id="productmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">             
+            <div class="modal-body">
+              <div class="product-details-conatiner">
+                <div class="product-first">
+                  <img src="images/shop-images/shop-2.jpg" alt="" class="img-fluid">
+                  <div class="inner-img-details">
+                    <img src="images/shop-images/shop-1.jpg" alt="" class="img-fluid">
+                    <img src="images/shop-images/shop-2.jpg" alt="" class="img-fluid">
+                    <img src="images/shop-images/shop-3.jpg" alt="" class="img-fluid">
+                  </div>
+                </div>
+                <div class="product-second">
+                  <h1>Muscle Pharm BCAA Essentials</h1>
+                  <h2>(240 Capsules)</h2>
+                  <h4>Product ID:3240890</h4>
+                  <h2 class="price-tag">$43.52</h2>
+                  <hr>
+                  <h1>Customer Reviews</h1>
+                  <div class="review-section">
+                    <h3>No reviews yet</h3>
+                    <p><a href="#">Write a review</a> </p>
+                  </div>
+                  <p>Select Details</p>
+                  <select class="custom-select">
+                    <option selected>Open this select menu</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select><br><br>
+                  <hr>
+                  <div class="quantity">
+                    <a href="#"> - </a>
+                    <div class="number">12</div>
+                    <a href="#"> + </a>
+                    <button type="submit" class="btn btn-primary btn-lg  product-btn sing-in-btn">ADD TO CART</button>                                    
+                  </div> <br>
+                  <h1>DEMAND MORE OF YOUR  BODY AND YOUR BCAA </h1>
+                  <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. </p>           
+                  <h3>Benefits of product</h3>
+                  <ul class="iner-product">
+                    <li>Lorem ipsum, or lipsum as it is</li>
+                    <li>Lorem ipsum, or lipsum as it is</li>
+                    <li>Lorem ipsum, or lipsum as it is</li>
+                    
+                  </ul>
+                  
+                </div>
+              </div>
+            </div> 
+          </div>
+        </div>
+      </div>  
 
+      <!--Product detail modal end-->
+
+       
 
   <script src="js/wow.min.js"></script>
   <script>new WOW().init();</script>
