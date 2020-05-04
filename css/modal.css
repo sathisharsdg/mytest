@@ -459,6 +459,19 @@ div#becomeinstructortext  .sign-in {
     background-color: antiquewhite;
     color: #00a99d;
 }
+@media(max-width:520px){
+    .intrest-section div {
+        display: flex;
+        font-size: .8rem;
+    }
+}
+@media (max-width: 360px){
+    .intrest-section div {
+        display: flex;         
+        flex-wrap: wrap;
+    }
+}
+
 /*become a instructor text modal css  end */
 
 
