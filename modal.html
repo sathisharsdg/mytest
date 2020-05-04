@@ -33,6 +33,20 @@
 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#productmodal">
   PRODUCT DETAIL
 </button>
+
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#becomeinstructormodal">
+  BECOME AN INSTRUCTOR
+</button>
+
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#becomeinstructortext">
+   INSTRUCTOR TEXT
+</button>
+
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#loginstructormodal">
+  INSTRUCTOR LOGIN
+</button>
+
+
   
   
   <!-- Modal -->
@@ -312,6 +326,128 @@
       <!--Product detail modal end-->
 
        
+
+
+
+      <!--become instructor modal start-->
+
+    <div class="modal fade" id="becomeinstructormodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <h1 class="signup-heading">Become an <span>INSTRUCTOR</span></h1> <br>          
+          <div class="modal-body" id="">
+              <form>
+                  <div class="form-group">                   
+                      <input type="text" class="form-control sign-in" id="exampleInputname" placeholder="Full Name ">                       
+                  </div>
+                  <div class="form-group">                   
+                      <input type="text" class="form-control sign-in" id="exampleInputname" placeholder="Contact Number ">                       
+                  </div>
+                  <div class="form-group">                   
+                    <input type="email" class="form-control sign-in" id="exampleInputEmail1"  placeholder="Email ID ">                                          
+                  </div> 
+                  <div class="form-group">                 
+                    <input type="password" class="form-control sign-in" id="exampleInputPassword1" placeholder="Password">
+                  </div>  
+                  <div class="form-group">                 
+                      <input type="password" class="form-control sign-in" id="exampleInputPassword1" placeholder="Confirm Password">
+                  </div>  
+                  <br>
+                  <div class="text-center next-inst-btn">
+                    <button type="submit" class="btn btn-primary sing-in-btn">NEXT</button>
+                  </div>     
+                   
+                  <div class="fb-section">
+                    <img src="images/fb-icon.svg" alt="" class="img-fluid">
+                    <p>Signup with facebbok</p>
+                  </div>   
+                  <div class="text-center footer-login">
+                    <p>if you have an account <a href="#">Login</a></p>
+                  </div> 
+               </form>          
+          </div> 
+        </div>
+      </div>
+    </div>  
+   <!--become instructor modal start modal end-->
+
+
+
+   <!--become instructor modal start-->
+
+   <div class="modal fade" id="becomeinstructortext" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <h1 class="signup-heading">Become an <span>INSTRUCTOR</span></h1> <br>          
+        <div class="modal-body" id="">
+            <form>
+                <div class="form-group">                  
+                    <textarea name="" id="" cols="5" rows="5" type="text" class="form-control sign-in" id="exampleInputname" placeholder="Full Name "></textarea>                    
+                </div>
+                <br>
+                <div class="intrest-section">
+                  <p>Areas of intrest</p> 
+                  <div> 
+                    <a href="#">Power ZONE <span><i class="fa fa-check" aria-hidden="true"></i></span></a> 
+                    <a href="#">Power HIT</a> 
+                    <a href="#">Power CORE</a> 
+                    <a href="#">Power ZEN</a> 
+                    <a href="#">Power CARDIO</a> 
+                  </div>        
+                </div>
+                    <br>
+                <div class="text-center next-inst-btn">
+                  <button type="submit" class="btn btn-primary sing-in-btn">SIGNUP</button>
+                </div>  <br> 
+                 
+            
+                <div class="text-center footer-login">
+                  <p>if you have an account <a href="#">Login</a></p>
+                </div> 
+             </form>          
+        </div> 
+      </div>
+    </div>
+  </div>  
+ <!--become instructor modal start modal end-->
+
+
+
+ <!--login instructor modal css  start-->
+ <div class="modal fade" id="loginstructormodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <h1 class="signup-heading">Login as <span>INSTRUCTOR</span></h1> <br>          
+      <div class="modal-body" id="">
+          <form>
+    
+              <div class="form-group">                   
+                <input type="email" class="form-control sign-in" id="exampleInputEmail1"  placeholder="Email">                                          
+              </div> 
+              <div class="form-group">                 
+                <input type="password" class="form-control sign-in" id="exampleInputPassword1" placeholder="Password">
+              </div>  
+     
+              <br>
+              <div class="text-center next-inst-btn">
+                <button type="submit" class="btn btn-primary sing-in-btn">LOGIN</button>
+              </div>     
+               
+              <div class="fb-section">
+                <img src="images/fb-icon.svg" alt="" class="img-fluid">
+                <p>Login with facebbok</p>
+              </div>   
+              <div class="text-center footer-login">
+                <p>Don't have an account <a href="#">Signup</a></p>
+              </div> 
+           </form>          
+      </div> 
+    </div>
+  </div>
+</div>  
+  <!--login instructor modal css  end-->
+
+ 
 
   <script src="js/wow.min.js"></script>
   <script>new WOW().init();</script>
