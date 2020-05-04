@@ -492,8 +492,15 @@ div#loginstructormodal .modal-content {
     min-height: 70vh
 }
 div#loginstructormodal h1.signup-heading {
-    text-align: center;
-    
+    text-align: center;    
+}
+
+div#loginstructormodal  .sign-in {
+    font-size: 1.5rem;
+    padding: 2.5rem;
+    border-radius: 0;
+    background-color: #423b3b03;
+    border: 1px solid #ffffff7a;
 }
 div#loginstructormodal .fb-section {
     display: flex;
