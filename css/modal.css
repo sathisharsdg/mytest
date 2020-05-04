@@ -371,6 +371,10 @@ div#becomeinstructormodal .modal-content {
     width: 90%;
     min-height: 70vh;
 }
+div#becomeinstructormodal h1.signup-heading {
+    text-align: center;
+   
+}
 div#becomeinstructormodal h1.signup-heading span {
     color: #fff;
 }
@@ -423,6 +427,10 @@ div#becomeinstructortext .modal-content {
     margin: 0 auto;
     width: 90%;
     min-height: 70vh
+}
+div#becomeinstructortext h1.signup-heading {
+    text-align: center;
+     
 }
 div#becomeinstructortext .footer-login p {
     color: #fff;
@@ -483,7 +491,10 @@ div#loginstructormodal .modal-content {
     width: 80%;
     min-height: 70vh
 }
-
+div#loginstructormodal h1.signup-heading {
+    text-align: center;
+    
+}
 div#loginstructormodal .fb-section {
     display: flex;
     justify-content: center;
@@ -501,5 +512,9 @@ div#loginstructormodal .footer-login p {
 div#loginstructormodal .footer-login a{
     color: #14c5b9;
     font-size: 1.2rem;
+}
+span.line-adjust-t {
+    border: 1px solid #ffffff54;
+    margin: 0 40%;
 }
 /*login instructor modal css  end */
