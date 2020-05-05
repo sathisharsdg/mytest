@@ -1,0 +1,279 @@
+/*sidebar css starts here*/
+.left-content {
+    background-color: #000000;
+    padding: 0;    
+    height: 105vh;
+    
+}
+.left-content .profile-section 
+{
+    padding:4em 2em 2em;
+}
+.left-content .profile-section h1 {
+    color: #01a7a0;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.left-content .profile-section span {
+    color: #fff;
+}
+.left-content .profile-section img.img-fluid {
+    border-radius: 50%;
+    height: 9rem;
+    border: 2px solid #fff;
+    width: 6em;
+}
+.left-content .profile-section p {
+    color: #fff;
+    font-size: 2rem;
+}
+.form-control {
+    display: block;
+    width: 65%!important;
+}
+ 
+ul.side-link-desktop a {
+    color: #fff;
+    font-size: 1.7rem;
+    line-height: 5rem;
+}
+ul.side-link-desktop a .fa {
+    padding-right: .8em;
+}
+ul.side-link-desktop {
+    padding: 1em 0 0 0;
+}
+ul.side-link-desktop li {
+    padding: 0 2em;
+}
+ul.side-link-desktop li:hover {
+    background-color: #3a3a3a;
+    cursor: pointer;
+    border-left: 2px solid #01a796;
+}
+/*sidebar css ends here*/
+
+/*right-content start here*/
+::-webkit-scrollbar {
+    width: 0px;
+  }  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #17a2b8; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #17a2b8; 
+  }
+.right-side-content {
+    padding: 1em 1em;
+}
+.right-side-content .header-content {   
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 2em 0;
+    border-bottom: 2px solid #f5f0f0;
+}
+.right-side-content .header-content h2 {
+    font-size: 2.2rem;
+}
+.course-title-form input {
+    padding: 1.6em .6em;
+    font-size: 1.5rem;
+}
+.course-title-form .form-group {
+    margin-bottom: 3rem;
+}
+.course-title-form {
+    padding: 2em 1em;
+}
+.course-title-form select {
+    height: 4.5rem;
+    font-size: 1.8rem;
+}
+.course-title-form label {
+    color: #c6c6c6;
+    font-size: 1.8rem;
+}
+button.btn.btn-info.continue-btn.btn-large {
+    font-size: 1.8rem;
+    border: 0em;
+    padding: .5em 2em;
+    float: right;
+    margin: 3em 0 0 0;
+}
+section.course-section {
+    overflow-y: hidden;
+    height: 100%;
+}
+/*right-content end here*/
+
+/*plan your course start*/
+.plan-course .plan-course-head {
+    padding: .5em .8em;
+}
+.Pricing-section h2.plan-course-head {
+    padding: .5em 0.6em;
+    border-left: 2px solid #17a2b8;
+}
+.price-select {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+select#price_selcet_2 {
+    width: 30rem!important;
+    width: 100%;
+}
+select#price_selcet_1 {
+    width: 10em!important;
+    margin: 0 .5em;
+}
+.Pricing-section form.course-title-form {
+    height: 85vh;
+    overflow: scroll;
+}
+.Pricing-section small {
+    color: #a5a4a4;
+    font-size: 1.6rem;
+}
+label.label-top {
+    display: flex;
+    width: 65%;
+    justify-content: space-between;
+    font-size: 1.8rem;
+}
+.video-icon .inner-icon-text img {
+    width: 20%;
+    opacity: .1;
+}
+.video-icon.relative .text-center.inner-icon-text {
+    padding: 5em 0em;
+    border: 1px solid #dad8d8;
+    margin: 10% 30%;
+    cursor: pointer;
+}
+.create-content-section {
+    padding: 2em .5em;
+}
+p.section-title {
+    padding: 2em 0 0 0;
+    font-size: 1em;
+    color: #adacac;
+}
+button.btn.btn-info.add-content {
+    padding: .5em 1.5em;
+    font-size: 1em;
+}
+.section-inner-content {
+    padding: 1em .7em;
+}
+.section-intro p {
+    font-size: 2rem;
+    color: #9a9696;
+}
+.section-detail-inner input {
+    padding: 1.6em .6em;
+    font-size: 1.5rem;
+}
+.section-detail-inner {
+    padding: 2em;
+    background-color: #f7f7f7;
+}
+.section-inner-content.nav.nav-tabs {
+    padding: .2em;
+}
+.section-inner-content .nav.nav-tabs li {
+    padding: .5em .5em;
+}
+.section-inner-content .nav.nav-tabs li.active {
+    border-bottom: 3px solid #17a2b8;
+}
+.section-inner-content .tab-content {
+    padding: 1em;
+    border: 1px solid #e6dddd;
+}
+.section-inner-content .nav-tabs a {
+    color: #b1a9a9;
+    font-size: 1.7rem;
+}
+.option-btn .btn {
+    font-size: 1.5rem;
+}
+
+.section-inner-content  .select-option i.fa.fa-plus {
+    padding: 3em 4em;
+    border: 1px solid #eae5e5;
+    cursor: pointer;
+}
+.create-sec-container-main {
+    height: 90vh;
+    overflow: scroll;
+}
+ 
+/*plan your course end*/
+
+
+
+
+/*media css Start */
+@media(max-width:878px){
+    ul.side-link-desktop {
+        display: none;
+    }
+    ul.side-link-mobile {
+        /* display: flex;
+        justify-content: center; */
+    }
+    ul.side-link-mobile {
+        display: flex;
+        justify-content: center;
+        padding: 0;
+    }
+    ul.side-link-mobile li a .fa {
+        font-size: 2.8rem;
+        color: #fff;
+        padding: .5em .5em;
+    }
+    .left-content {
+        background-color: #000000;
+        padding: 0;
+        height: auto;
+    }
+   
+    label.label-top {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        font-size: 1.8rem;
+    }
+}
+
+@media(min-width:878px){
+    ul.side-link-mobile {
+        display: none;      
+    }
+}
+@media(max-width:768px){
+    .form-control {
+        display: block;
+        width: 100%!important;
+    }
+    select#price_selcet_2 {         
+        width: 100%!important;
+    }
+    .video-icon.relative .text-center.inner-icon-text {
+        padding: 5em 0em;
+        border: 1px solid #dad8d8;
+        margin: 2% 10%;
+        cursor: pointer;
+    }
+}
+/*media css end */
