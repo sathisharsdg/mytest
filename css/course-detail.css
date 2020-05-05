@@ -67,7 +67,7 @@ ul.side-link-desktop li:hover {
    
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: #17a2b8; 
+    /* background: #17a2b8;  */
   }
   
   /* Handle on hover */
@@ -399,6 +399,28 @@ div#main-course-search-results {
     padding: .5em 1em;
 }
 /* main course CSS start */
+
+
+/*subscribers CSS start */
+h2.subscribed {
+    flex: 1;
+}
+h2.subscribed span {
+    color: #716d6d;
+    font-size: 1.8rem;
+}
+.search-box-subscribe .fa {
+    padding: 0em 1em;
+}
+.container.subscrbe-container {
+    padding: 2em 0;
+    height: 85vh;
+    overflow: scroll;
+}
+/*subscribers CSS end */
+
+
+
 
 
 /*media css Start */
