@@ -52,17 +52,21 @@ ul.side-link-desktop{
 ul.side-link-desktop li:hover {
     background-color: #3a3a3a;
     cursor: pointer;
-    border-left: 2px solid #01a796;
+    border-left: 0px solid #01a796;
 }
 /*sidebar css ends here*/
 
 /*right-content start here*/
 ::-webkit-scrollbar {
-    width: 0px;
+    width: 10px;
   }  
   /* Track */
   ::-webkit-scrollbar-track {
-    background: #f1f1f1; 
+    background: #e3e3e3;
+    border-top-left-radius: .3em;
+    border-top-right-radius: .3em;
+    border-bottom-left-radius: .3em;
+    border-bottom-right-radius: .3em;
   }
    
   /* Handle */
@@ -72,7 +76,7 @@ ul.side-link-desktop li:hover {
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: #17a2b8; 
+    /* background: #17a2b8;  */
   }
 .right-side-content {
     padding: 1em 1em;
@@ -216,7 +220,7 @@ button.btn.btn-info.add-content {
     cursor: pointer;
 }
 .create-sec-container-main {
-    height: 90vh;
+    height: 82vh;
     overflow: scroll;
 }
  
@@ -387,7 +391,7 @@ span.input-group-addon.search-id {
     font-size: 1.5rem;
 }
 div#main-course-search-results {
-    height: 70vh;
+    height: 66vh;
     overflow: scroll;
 }
 .course-edit.text-right {
