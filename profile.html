@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+  <head>   
+    <meta charset="utf-8">    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">   
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="css/media.css">  
+    <link rel="stylesheet" href="css/course-detail.css">
+    <script src="js/google.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="https://use.fontawesome.com/36667026bc.js"></script>
+    
+  </head>
+  <body>
+  <section class="course-section">
+    <div class="container-fluid ">
+        <div class="row">
+            <div class="col-md-3 col-sm-6 col-xs-12 left-content">
+                 <div class="profile-section text-center">
+                    <h1>E3 <span>Fitness</span></h1><br>
+                    <img src="images/profile.jpg" alt="" class="img-fluid">
+                    <p>Elmer Davis</p>
+                 </div>
+
+                 <ul class="side-link-desktop">
+                    <li><a href="#"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Create Course </a></li>
+                    <li><a href="#"><i class="fa fa-play-circle-o" aria-hidden="true"></i>   Courses </a></li>
+                    <li><a href="#"><i class="fa fa-user-circle-o" aria-hidden="true"></i>  Profile </a></li>
+                    <li><a href="#"><i class="fa fa-users" aria-hidden="true"></i> Subscribed Users </a></li>
+                    <li><a href="#"><i class="fa fa-power-off" aria-hidden="true"></i> Logout </a></li>
+                </ul>
+                <ul class="side-link-mobile">
+                
+                   <li><a href="#"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a></li>
+                   <li><a href="#"><i class="fa fa-play-circle-o" aria-hidden="true"></i></a></li>
+                   <li><a href="#"><i class="fa fa-user-circle-o" aria-hidden="true"></i></a></li>
+                   <li><a href="#"><i class="fa fa-users" aria-hidden="true"></i></a></li>
+                   <li><a href="#"><i class="fa fa-power-off" aria-hidden="true"></i></a></li>
+               </ul>
+            </div>
+            <div class="col-md-9 col-sm-6 col-xs-12  right-side-content">
+                 <div class="header-content">
+                        <h2>My Profile</h2>
+                        <button class="btn btn-danger">SWITCH TO NORMAL</button>
+                 </div>
+                 <!--form start--> 
+                 <div class="profile-inner-section">            
+                 <form class="course-title-form">
+                    <div class="form-group">
+                      <label for="exampleFormControlInput1">Fullname</label>
+                      <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Elmer Davis">
+                    </div>
+ 
+                    <div class="form-group">         
+                        <label for="exampleFormControlInput1">Contact Number</label>
+                        <div class=" input-group phone-number">
+                            <input id="text" type="text" class="form-control" name="email" placeholder="+65 7897 8979">
+                            <span class="input-group-addon"><i class="fa fa-pencil" aria-hidden="true"></i>         </span>     
+                        </div>                               
+                     </div>
+
+                     <div class="form-group">         
+                        <label for="exampleFormControlInput1">Email</label>
+                        <div class=" input-group phone-number">
+                            <input id="text" type="text" class="form-control" name="email" placeholder="elmerdavi45@gmail.com">
+                            <span class="input-group-addon tick-id"><i class="fa fa-check" aria-hidden="true"></i></span>  
+                            <span class="input-group-addon wrong-id"><i class="fa fa-times" aria-hidden="true"></i></span>   
+                        </div>                               
+                     </div>
+
+                     <div class="form-group">
+                        <label class="label-top" for="exampleFormControlInput1">Who you are(short bio)</label>
+                        <textarea id="textarea" rows="5" col="3" class="form-control" placeholder="Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book."></textarea>                     
+                      </div>
+                      <div class="form-group">
+                        <label class="label-top" for="exampleFormControlInput1">Are of interest</label>
+                        <div class="likes-area">
+                            <a href="#" id="class-selected">Power HIT <i class="fa fa-check" aria-hidden="true"></i></a>
+                            <a href="#">Power ZONE</a>
+                            <a href="#">Power CORE</a>
+                            <a href="#">Power ZEN</a>
+                            <a href="#">Power CARDIO</a>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label class="label-top" for="exampleFormControlInput1">Password</label>
+                      <div class="input-group">
+                        <input type="password" class="form-control pwd" value="iamapassword">
+                        <span class="input-group-addon pwd-id"><i class="fa fa-eye" aria-hidden="true"></i></span>                                  
+                      </div>           
+                      </div>
+
+                      <div class="form-group text-right" id="pwd-change">
+                        <a href="#">Change Password</a>
+                      </div>                
+
+                  </form>
+                       </div>
+                 <!--form end-->                
+            </div>
+        </div>    
+    </div>
+  </section> 
+  <script src="js/wow.min.js"></script>
+  <script>new WOW().init();</script>
+  <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

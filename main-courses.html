@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+  <head>   
+    <meta charset="utf-8">    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">   
+    <title>Home page</title>
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="css/media.css">  
+    <link rel="stylesheet" href="css/course-detail.css">
+    <script src="js/google.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="https://use.fontawesome.com/36667026bc.js"></script>
+    
+  </head>
+  <body>
+  <section class="course-section">
+    <div class="container-fluid ">
+        <div class="row">
+            <div class="col-md-3 col-sm-6 col-xs-12 left-content">
+                 <div class="profile-section text-center">
+                    <h1>E3 <span>Fitness</span></h1><br>
+                    <img src="images/profile.jpg" alt="" class="img-fluid">
+                    <p>Elmer Davis</p>
+                 </div>
+                 <ul class="side-link-desktop">
+                  <li><a href="#"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Create Course </a></li>
+                  <li><a href="#"><i class="fa fa-play-circle-o" aria-hidden="true"></i>   Courses </a></li>
+                  <li><a href="#"><i class="fa fa-user-circle-o" aria-hidden="true"></i>  Profile </a></li>
+                  <li><a href="#"><i class="fa fa-users" aria-hidden="true"></i> Subscribed Users </a></li>
+                  <li><a href="#"><i class="fa fa-power-off" aria-hidden="true"></i> Logout </a></li>
+              </ul>
+              <ul class="side-link-mobile">
+              
+                 <li><a href="#"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a></li>
+                 <li><a href="#"><i class="fa fa-play-circle-o" aria-hidden="true"></i></a></li>
+                 <li><a href="#"><i class="fa fa-user-circle-o" aria-hidden="true"></i></a></li>
+                 <li><a href="#"><i class="fa fa-users" aria-hidden="true"></i></a></li>
+                 <li><a href="#"><i class="fa fa-power-off" aria-hidden="true"></i></a></li>
+             </ul>
+            </div>
+            <div class="col-md-9 col-sm-6 col-xs-12  right-side-content">
+                 <div class="header-content">
+                        <h2>Create Course</h2>
+                        <button class="btn btn-danger">SWITCH TO NORMAL</button>
+                 </div>
+                 <!--form start--> 
+                 <form class="course-title-form">
+                     <div class="search-filter-course">
+                        <div class="form-group">  
+                            <div class="input-group">
+                                <input type="text" class="form-control" id="search-query" placeholder="Enter Your Course....">
+                                <span class="input-group-addon search-id"><i class="fa fa-search" aria-hidden="true"></i></span>                                  
+                              </div>                           
+                           
+                          </div>
+                          <div class="form-group">                           
+                            <select class="form-control" id="select-query-options">
+                              <option>Newest</option>
+                              <option>2</option>
+                              <option>3</option>
+                              <option>4</option>
+                              <option>5</option>
+                            </select>                            
+                          </div>
+                          <button class="btn btn-large btn-info" id="createbtn"><i class="fa fa-plus" aria-hidden="true"></i>  CREATE COURSE</button>
+
+                     </div>                
+
+                
+                  </form>
+                 <!--form end-->    
+                 <div id="main-course-search-results">               
+                 <div class="course-search-results">
+                     <div class="course-img">
+                           <img src="images/course-1.jpg" alt="" class="img-fluid" >
+                     </div>
+                     <div class="courser-title-content">
+                      <h2>Course title name</h2>
+                       <button class="btn btn-warning text-white">DRAFT</button>
+                       <button class="btn btn-default">Private</button>
+                     </div>
+                 </div>
+
+                 <div class="course-search-results">
+                    <div class="course-img">
+                          <img src="images/course-1.jpg" alt="" class="img-fluid" >
+                    </div>
+                    <div class="courser-title-content">
+                     <h2>Course title name</h2>
+                      <button class="btn btn-success text-white">PUBLISHED</button>
+                      <button class="btn btn-default">Public</button>
+                    </div>
+                </div>
+
+
+                <div class="course-search-results" >
+                    <div class="course-img">
+                          <img src="images/course-1.jpg" alt="" class="img-fluid" >
+                    </div>
+                    <div class="courser-title-content">
+                     <h2>Course title name</h2>
+                      <button class="btn btn-warning text-white">DRAFT</button>
+                      <button class="btn btn-default">Private</button>
+                    </div>
+                    <div class="course-edit text-right">
+                        <button class="btn btn-default">Edit</button>
+                        <button class="btn btn-default">Manage Course</button>
+                    </div>
+                </div>
+
+                <div class="course-search-results">
+                    <div class="course-img">
+                          <img src="images/course-1.jpg" alt="" class="img-fluid" >
+                    </div>
+                    <div class="courser-title-content">
+                     <h2>Course title name</h2>
+                      <button class="btn btn-success text-white">PUBLISHED</button>
+                      <button class="btn btn-default">Public</button>
+                    </div>
+                </div>
+
+                
+                </div>
+            </div>
+        </div>    
+    </div>
+  </section> 
+  <script src="js/wow.min.js"></script>
+  <script>new WOW().init();</script>
+  <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

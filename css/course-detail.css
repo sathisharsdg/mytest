@@ -2,7 +2,7 @@
 .left-content {
     background-color: #000000;
     padding: 0;    
-    height: 105vh;
+    height: 100vh;
     
 }
 .left-content .profile-section 
@@ -40,13 +40,15 @@ ul.side-link-desktop a {
 }
 ul.side-link-desktop a .fa {
     padding-right: .8em;
-}
-ul.side-link-desktop {
-    padding: 1em 0 0 0;
-}
+} 
 ul.side-link-desktop li {
-    padding: 0 2em;
+    padding: 0 5em;
 }
+ul.side-link-desktop{
+    padding: 0;
+}
+
+
 ul.side-link-desktop li:hover {
     background-color: #3a3a3a;
     cursor: pointer;
@@ -85,7 +87,7 @@ ul.side-link-desktop li:hover {
     font-size: 2.2rem;
 }
 .course-title-form input {
-    padding: 1.6em .6em;
+    padding: 1.4em .6em;
     font-size: 1.5rem;
 }
 .course-title-form .form-group {
@@ -222,9 +224,204 @@ button.btn.btn-info.add-content {
 
 
 
+/*profile page CSS Start*/
+
+.profile-inner-section {
+    width: 80%;
+}
+.input-group.phone-number {
+    width: 65%;
+}
+.input-group {
+    width: 65%;
+}
+div#pwd-change {
+    width: 65%;
+}
+.profile-inner-section i.fa.fa-pencil {
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    color: #0eb3a3;
+}
+
+span.input-group-addon.tick-id {
+    background-color: #eaeaea;
+    z-index: 9999999!important;
+    width: 5rem;   
+    border: 1px solid #dcdcdc;  
+}
+
+span.input-group-addon.wrong-id {
+    background-color: #eaeaea;
+    z-index: 9999999!important;
+    width: 5rem;
+    border: 1px solid #dcdcdc;
+}
+
+span.input-group-addon.tick-id .fa {
+    position: absolute;
+    top: 1em;
+    right: 4.3em;
+    color: #0eb3a3;
+}
+
+span.input-group-addon.wrong-id  .fa {
+    position: absolute;
+    top: 1em;
+    right: 1.3em;
+    color: #F44336;
+}
+
+.profile-inner-section #textarea {
+    font-size: 1.5rem;
+}
+.profile-inner-section {
+    width: 80%;
+    height: 80vh;
+    overflow: scroll;
+}
+.likes-area a {
+    background-color: #f1f1f1;
+    padding: .7em 1.5em;
+    border-radius: 50em;
+    color: #868686;
+    margin: 0 .2em;
+    font-size: 1.2rem;
+}
+.profile-inner-section .likes-area {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.profile-inner-section i.fa.fa-eye {
+    position: absolute;
+    top: 1em;
+    right: 1.3em;
+    color: #ada6a5;
+}
+div#pwd-change a {
+    color: #737373;
+}
+.likes-area a .fa {
+    color: #0dc5be;
+}
+
+.pwd-quality small {
+    font-size: 1.5rem;
+}
+span#strog-id {
+    color: #09cc55;
+}span#medium-id {
+    color: #ffae6b;
+}
+span#weak-id {
+    color: #ff0000;
+}
+ 
+.pwd-update-buttons-sec button {
+    font-size: 1.5rem;
+}
+.pwd-update-buttons-sec {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1em 0;
+}
+ 
+/*profile page CSS End*/
+
+
+
+/*main course CSS start */
+.search-filter-course {
+    display: flex;
+    justify-content: space-between;
+}
+.input-group input#search-query {
+    width: 15em!important;
+}
+span.input-group-addon.search-id {
+    background-color: #fbf8f8;
+    z-index: 9999999!important;
+    width: 5rem;
+    border: 1px solid #dcdcdc;
+}
+.search-filter-course i.fa.fa-search {
+    position: absolute;
+    top: 0.6em;
+    right: 1.3em;
+    color: #999999;
+}
+.search-filter-course .form-group {
+    margin-bottom: 0;
+}
+
+.search-filter-course .input-group {
+    width: auto;
+}
+.search-filter-course select#select-query-options {
+    width: 10em!important;
+    position: absolute;
+    left: 20em;
+    font-size: 1.6rem;
+    color: #9f9494;
+}
+
+.search-filter-course button#createbtn{
+    font-size: 1.5rem;
+    padding: 0 1.4em;
+}
+.course-search-results {
+    padding: 1em 1em;
+}
+.course-search-results {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.course-search-results .courser-title-content {
+    padding: 0 2em;
+    line-height: 3em;
+}
+.course-search-results .courser-title-content button {
+    font-size: 1.5rem;
+}
+div#main-course-search-results {
+    height: 70vh;
+    overflow: scroll;
+}
+.course-edit.text-right {
+    padding: 0 2em;
+}
+.course-edit.text-right button.btn.btn-default {
+    font-size: 1.4rem;
+    background-color: #f3f3f3;
+    padding: .5em 1em;
+}
+/* main course CSS start */
+
 
 /*media css Start */
 @media(max-width:878px){
+    .input-group input#search-query {
+        width: auto!important;
+    }
+    .search-filter-course select#select-query-options {
+        width: auto!important;       
+    }
+
+    .profile-inner-section {
+        width: 100%;
+    }
+    .input-group.phone-number {
+        width: 100%;
+    }
+    .input-group {
+        width: 100%;
+    }
+    div#pwd-change {
+        width: 100%;
+    }
     ul.side-link-desktop {
         display: none;
     }
@@ -238,9 +435,9 @@ button.btn.btn-info.add-content {
         padding: 0;
     }
     ul.side-link-mobile li a .fa {
-        font-size: 2.8rem;
+        font-size: 2.3rem;
         color: #fff;
-        padding: .5em .5em;
+        padding: .5em .3em;
     }
     .left-content {
         background-color: #000000;
@@ -253,6 +450,10 @@ button.btn.btn-info.add-content {
         width: 100%;
         justify-content: space-between;
         font-size: 1.8rem;
+    }
+    .search-filter-course select#select-query-options {        
+        position: unset;
+        left: 0;
     }
 }
 
@@ -274,6 +475,23 @@ button.btn.btn-info.add-content {
         border: 1px solid #dad8d8;
         margin: 2% 10%;
         cursor: pointer;
+    }
+    .profile-inner-section .likes-area {         
+        flex-wrap: wrap;
+    }
+    .likes-area a {    
+        margin: .3em .2em;      
+    }
+    .course-search-results {        
+        flex-wrap: wrap;
+    }
+    .course-edit.text-right {
+        padding: 0 1em;
+    }
+    .search-filter-course {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
     }
 }
 /*media css end */
