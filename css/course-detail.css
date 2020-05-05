@@ -58,26 +58,17 @@ ul.side-link-desktop li:hover {
 
 /*right-content start here*/
 ::-webkit-scrollbar {
-    width: 10px;
+    width: 20px;
   }  
   /* Track */
   ::-webkit-scrollbar-track {
-    background: #e3e3e3;
+    background: #f3f3f3;
     border-top-left-radius: .3em;
     border-top-right-radius: .3em;
     border-bottom-left-radius: .3em;
     border-bottom-right-radius: .3em;
   }
-   
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    /* background: #17a2b8;  */
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    /* background: #17a2b8;  */
-  }
+ 
 .right-side-content {
     padding: 1em 1em;
 }
@@ -221,7 +212,7 @@ button.btn.btn-info.add-content {
 }
 .create-sec-container-main {
     height: 82vh;
-    overflow: scroll;
+    overflow-y: scroll;
 }
  
 /*plan your course end*/
@@ -392,7 +383,7 @@ span.input-group-addon.search-id {
 }
 div#main-course-search-results {
     height: 66vh;
-    overflow: scroll;
+    overflow-y: scroll;
 }
 .course-edit.text-right {
     padding: 0 2em;
