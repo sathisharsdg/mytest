@@ -78,7 +78,7 @@ ul.side-link-desktop li:hover {
 .right-side-content .header-content {   
     display: flex;
     justify-content: space-between;
-    padding: 0 0 2em 0;
+    padding: 0 2em 2em 0em;
     border-bottom: 2px solid #f5f0f0;
 }
 .right-side-content .header-content h2 {
@@ -424,13 +424,16 @@ h2.subscribed span {
 }
 .detail-head {
     display: flex;
-    justify-content: start;
+    justify-content: space-between;
     align-items: center;
 }
 .progress-detail {
     display: inline-flex;
     justify-content: space-between;
     
+}
+.video-section-inner {
+    padding: 1em 0;
 }
  
 .bar-progress span {
@@ -448,10 +451,9 @@ h2.subscribed span {
 .bar-progress{
     width: 5em;
     height: 5em;
-    top: 0em;
-    right: 0;
+    top: 0em;     
     bottom: 0;
-    right: 0;
+    right: 1em;
     margin: auto;
     position: absolute;
     background: #fa0 -webkit-linear-gradient(left, #fa0 50%, #0af 50%);
@@ -522,10 +524,7 @@ h2.subscribed span {
     animation-delay: inherit
 }
 
-.video-sidbar-content {
-    background-color: #f3f3f3;
-    /* padding: 1em 2em; */
-}
+ 
 .video-sidbar-content h3 {
     padding: 1em;
     background-color: #3e3e3e;
@@ -560,13 +559,43 @@ div#accordionExample p {
     font-size: 1.8rem;
     padding: 1em 0;
 }
+
+
+.video-content-inner ul.video-inerul {
+    padding: 1em 0;
+}
+.video-content-inner ul.video-inerul li {
+    line-height: 1.9em;
+    color: #868282;
+}
+.video-sidbar-content {
+    padding: 0;
+}
 /*video details End */
 
 
 
 
 /*media css Start */
-@media(max-width:878px){
+
+
+@media(max-width:1200px){
+    ul.side-link-desktop {
+        display: none;
+    }
+    ul.side-link-mobile {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 1em;
+    }
+}
+
+@media(min-width:1200px){
+    ul.side-link-mobile {
+        display: none;      
+    }
+}
+@media(max-width:920px){
     .input-group input#search-query {
         width: auto!important;
     }
@@ -586,9 +615,7 @@ div#accordionExample p {
     div#pwd-change {
         width: 100%;
     }
-    ul.side-link-desktop {
-        display: none;
-    }
+ 
     ul.side-link-mobile {
         /* display: flex;
         justify-content: center; */
@@ -627,11 +654,7 @@ div#accordionExample p {
     }
 }
 
-@media(min-width:878px){
-    ul.side-link-mobile {
-        display: none;      
-    }
-}
+ 
 @media(max-width:768px){
     .form-control {
         display: block;
