@@ -15,7 +15,7 @@ $(document).ready(function(){
 });
 $(document).ready(function() {
 	$(window).scroll(function() {
-	  if ($(document).scrollTop() > 50) {
+	  if ($(document).scrollTop() > 100) {
 		$(".video-sidbar-content").addClass("fixed-class");
 	  } else {
 		$(".video-sidbar-content").removeClass("fixed-class");
