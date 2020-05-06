@@ -571,6 +571,18 @@ div#accordionExample p {
 .video-sidbar-content {
     padding: 0;
 }
+.video-sidbar-content {
+    position: absolute;
+    right: 3em;
+    top: 9em;
+    transition: all .1s ease;
+}
+.fixed-class {
+    position: fixed;
+    right: 3em;
+    top: 0;
+    transition: all .1s ease;
+}
 /*video details End */
 
 

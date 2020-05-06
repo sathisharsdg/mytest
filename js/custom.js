@@ -13,3 +13,12 @@ $(document).ready(function(){
 		$(this).prev(".card-header").find(".fa").removeClass("fa-minus").addClass("fa-plus");
 	});
 });
+$(document).ready(function() {
+	$(window).scroll(function() {
+	  if ($(document).scrollTop() > 50) {
+		$(".video-sidbar-content").addClass("fixed-class");
+	  } else {
+		$(".video-sidbar-content").removeClass("fixed-class");
+	  }
+	});
+  });
