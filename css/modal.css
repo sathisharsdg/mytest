@@ -525,3 +525,53 @@ span.line-adjust-t {
     margin: 0 40%;
 }
 /*login instructor modal css  end */
+
+
+/*book a class modal CSS Start*/
+div#bookclass h1.signup-heading span {
+    color: #fff;
+}
+div#bookclass .sign-in {
+    font-size: 1.5rem;
+    padding: 2.5rem;
+    border-radius: 0;
+    background-color: #423b3b03;
+    border: 1px solid #ffffff7a;
+}
+div#bookclass .modal-content {
+    background-color: #151515de;
+    padding: 2rem;
+    margin: 0 auto;
+    width: 90%;
+    min-height: 70vh;
+}
+div#bookclass  h1.signup-heading {
+    color: #00a99d;
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 1rem;
+    text-align: center;
+}
+
+div#bookclass .sign-in select {
+    word-wrap: normal;
+    color: #fff!important;
+}
+ 
+
+div#extra .sign-in {
+    font-size: 1.6rem;
+    padding: 0em 1.3em!important;
+    border-radius: 0;
+    background-color: #423b3b00;
+    border: 1px solid #ffffff7a;
+    color: #fff!important;
+    opacity: 1;
+    height: 5.5rem!important;
+    font-weight: 100!important;
+}
+div#extra  option.others {
+    color: #000;
+}
+/*book a class modal CSS Endt*/

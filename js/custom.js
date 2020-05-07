@@ -22,3 +22,18 @@ $(document).ready(function() {
 	  }
 	});
   });
+  //Video inner detil  pages
+
+  $(document).ready(function() {
+	$(window).scroll(function() {
+	  if ($(document).scrollTop() > 200) {
+		$(".video-sidbar-content2").addClass("fixed-class2");
+	  } else {
+		$(".video-sidbar-content2").removeClass("fixed-class2");
+	  }	  
+	});
+  });
+
+  //Slider JS Starts 
+
+  

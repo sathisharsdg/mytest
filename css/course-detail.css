@@ -583,11 +583,406 @@ div#accordionExample p {
     top: 0;
     transition: all .1s ease;
 }
+
+.video-sidbar-content2 {
+    position: absolute;
+    right: 3em;
+    top: 65%;
+    transition: all .1s ease;
+}
+
+.fixed-class2 {
+    position: fixed;
+    right: 3em;
+    top: 10%;
+    transition: all .1s ease;
+}
+.video-detail-banner-2 .inside-content {
+    padding: 2em 0;
+}
+.video-detail-banner-2 .this-course-ul {
+    list-style: disc;
+    padding: 0 1.5em;     
+    color: #828282;
+}
+.video-detail-banner-2 .this-course-ul li {
+    line-height: 1.7em;
+}
+.video-detail-banner-2 h3 {
+    font-size: 1.8rem;
+    padding: 1em 0;
+}
+#accordionExample2 .btn.btn-link .fa {
+    position: absolute;
+    color: #009688;
+    right: 1em;
+    -webkit-text-stroke: 1px #f7f7f7;
+}
+#accordionExample2 .btn.btn-link {
+    font-size: 1.6rem;
+    color: #454545;
+}
+.video-sidbar-content2 h3 {
+    background-color: whitesmoke;
+    padding: 1em 1em;
+    font-size: 1.3em;
+}
+.about-instructor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2em;
+}
+.video-content-inner-side-accrdian {
+    padding: 2em 0;
+}
+.about-instructor .img-sec {
+    margin: 0 1em;
+    width: 10em;
+    flex: .8;
+}
+.about-instructor .content {
+    flex: 3;
+}
+.about-instructor .img-sec img {
+    border-radius: 50%;
+    height: 15rem;
+    width: 15rem;
+}
+.button-sec-thiscourse.text-center {
+    padding: 1em 0;
+}
+.button-sec-thiscourse button {
+    font-size: 1.6rem;
+}
+.button-sec-thiscourse h2 {
+    font-size: 2.5rem;
+}
+.button-sec-thiscourse h2 span {
+    font-size: 1.5rem;
+    text-decoration: line-through;
+}
+small.rating-start-instructor {
+    font-size: 1.6rem;
+}
+small.rating-start-instructor .fa {
+    padding: 0 .5em 0 0em;
+}
+.user-feeds {
+    padding: 4em 0;
+}
+ 
+.user-feeds  p i.fa.fa-star {
+    color: #f7a619;
+}
+.user-feeds h2 {
+    font-size: 5rem;
+}
+.user-feeds .progress {
+    display: -ms-flexbox;
+    display: flex;
+    height: 2rem;
+    overflow: hidden;
+    background-color: #e9ecef;
+    border-radius: .25rem;
+    margin: 0 0 1.5em;
+}
+
+.progress-bar { 
+    background-color: #d6d6d6;
+}
+.user-feeds .row {
+    padding: 2em 0;
+}
+
+.user-review-sections {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em 0;
+}
+.user-review-sections .inner-content-img {
+    flex: .3;
+}
+.user-review-sections .inner-content {
+    flex: .85;
+}
+.review-btn-n button.btn.btn-large.btn-info {
+    font-size: 1.8rem;
+}
+.more-course-section {
+    padding: 5em 0;
+}
+.more-course-flex {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em 0;
+}
+.more-course-section .btn-info {
+    font-size: 1.8rem;
+}
+.more-course-flex img {
+    width: 80%;
+}
 /*video details End */
 
 
 
 
+/*video course section details Starts */
+section.video-detail-banner {
+    background-color: #292929;
+    height: 80vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.video-detail-banner img.img-fluid {
+    padding: 5em 0;
+}
+.video-detail-banner .baner-content {
+    padding: 6em 2em;
+}
+.video-detail-banner h3 {
+    color: #fff;
+    font-size: 2.5rem;
+}
+p.rating {
+    color: #fff;
+}
+p.rating .fa {
+    color: #FFC107;
+    padding-left: 0.5em;   
+}
+p.rating span {    
+    margin: 0 1em;
+}
+
+.baner-content p {
+    color: #fff;
+}
+.baner-content p b {
+    padding: 0 .5em;
+}
+
+h4.price {
+    font-size: 3.3rem;
+    color: #fff;
+}
+
+p.text-blue-p {
+    color: #009688;
+}
+span.not {
+    font-size: 1.6rem;
+    color: #e7e7e7;
+    text-decoration: line-through;
+}
+span.wish {
+    font-size: 1.3rem;
+    color: #fff;
+    padding: 0 1em;
+}
+.cart-btn .btn-info {
+    font-size: 1.7rem;
+    border-radius: 0;
+    padding: .5em 1.5em;
+}
+.cart-btn .btn-default {
+    font-size: 1.7rem;
+    border-radius: 0;
+    color: #17a2b8;
+    padding: .5em 1.5em;
+    background-color: #efefef;
+}
+.cart-btn {
+    padding: 1em 0;
+}
+ 
+/*video course section details Ends*/
+
+
+
+/*checkout page CSS Start*/
+
+.checkout-section {
+    padding: 2em 0;
+}
+.order-summary-section {
+    display: flex;
+    justify-content: flex-start;
+    padding: 1em 1em 0 0;
+    align-items: center;
+    border-bottom: 1px solid #d4cbcb;
+    box-shadow: 1px 9px 9px 2px #8e878721;
+}
+.order-summary-section .order-content {
+    padding: 0 1em;
+    flex: 1;
+}
+.order-summary-section .img {
+    flex: .3;
+}
+.order-summary-section .order-content h4 {
+    font-size: 2rem;
+}
+.row.order-summary h3:first-child {
+    font-size: 2rem;
+    /* padding: .5em 0; */
+}
+.order-summary-section .order-content p {
+    font-size: 1.6rem;
+}
+.order-summary-section .discount h3 {    
+    margin: 0;
+    font-weight: 700;
+    font-size: 2.7rem!important;
+}
+.order-summary-section .discount p {
+    text-decoration: line-through;
+    font-size: 1.4rem;
+    color: #ababab;
+}
+.checkout-section .payment-content-checkout h1 {
+    font-weight: 700;
+    font-size: 2.7rem;
+}
+.order-summary-section .discount {
+    text-align: center;
+}
+ 
+.payment-container {
+    padding: 1.5em 1em 1em 1em;
+}
+.payment-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.payment-content {
+    padding: 1em 1em;
+    background-color: #f7f7f7;
+    line-height: 3.5rem;
+}
+.payment-section p:first-child {
+    margin-bottom: 0;
+    padding: 0px 5em 0 0;
+}
+.payment-section p {
+    margin-bottom: 0;
+}
+.button-payment {
+    display: flex;
+    justify-content: space-between;
+    padding: .5em 1em;
+    background-color: #12b2a6;
+    margin: 1em 0;
+}
+.button-payment p:first-child {
+    color: #fff;
+    font-size: 2rem;
+}
+.button-payment p:last-child {
+    color: #fff;
+    font-size: 2.5rem;
+}
+.checkout-section .order-summary {
+    padding: 2em 0;
+}
+
+.checkout-section .payment-final {
+    padding: 3em 0;
+}
+
+.checkout-section  .nav-tabs .nav-link.active{
+    padding: .5em 0.5em;
+    border-bottom: 0.4rem solid #12b2a6;
+}
+.checkout-section  .nav-tabs {
+    border-bottom: 1px solid #dee2e600;
+}
+.checkout-section .nav-tabs .nav-link{
+padding: .5em 0.5em;
+color: #495057;
+background-color: #fff;
+}
+.checkout-section  .nav-tabs .nav-link {
+    border: 0px solid transparent;
+}
+.payment-final .form-control {
+    display: block;
+    width: 100%!important;
+    padding: 1.5em 1em;
+    font-size: 1.6rem;
+}
+
+.payment-final  #inputmonth {
+    padding: .6em;
+    height: 5rem;
+}
+.payment-final  #inputyear {
+    padding: .6em;
+    height: 5rem;
+}
+.pay-finalbtn {
+    margin: 2em 12em;
+}
+.pay-finalbtn button {
+    font-size: 2.3rem;
+}
+
+.checkout-section .fa-question-circle:before {
+    content: "\f059";
+    position: absolute;
+    top: 1em;
+    right: 1em;
+}
+
+.payment-final #nav-home {
+    background-color: #f7f6f5;
+    padding: 1.5em;
+}
+.order-summary-section .order-content a {
+    color: #009e92;
+    font-size: 1.5rem;
+}
+.checkout-section .payment-content-checkout {
+    padding: 1em 1em;
+}
+.checkout-section .payment-content-checkout small {
+    font-size: 1.4rem;
+    text-decoration: line-through;
+    color: #ababab;
+}
+
+.form-group.coupon-sec .input-group {
+    width: 100%;
+}
+.form-group.coupon-sec .input-group input.form-control.coupon {
+    padding: 1.5em;
+    font-size: 1.7rem;
+}
+.checkout-section .input-group-append  .coupon{
+    padding: 0 1.5em;
+    font-size: 1.7rem;
+}
+.checkout-section .form-group.coupon-sec button {
+    font-size: 2rem;
+    padding: .5em;
+}
+.checkout-section .order-summary span#course-count {
+    font-size: 1.5rem;
+    color: #ababab;
+    font-style: italic;
+}
+a#close-order-item {
+    position: absolute;
+    right: 0em;
+    font-size: 2rem;
+    color: red;
+}
+/*checkout page CSS End*/
+ 
 /*media css Start */
 
 
@@ -600,6 +995,12 @@ div#accordionExample p {
         justify-content: space-between;
         padding: 0 1em;
     }
+    section.video-detail-banner {     
+        height: 30vh;       
+    }
+    .pay-finalbtn {
+        margin: auto;
+    }
 }
 
 @media(min-width:1200px){
@@ -608,6 +1009,16 @@ div#accordionExample p {
     }
 }
 @media(max-width:920px){
+    .video-detail-banner img.img-fluid {
+        padding: 2em 0;
+    }
+    section.video-detail-banner {
+        background-color: #292929;
+        height: auto;
+    }
+    .video-detail-banner .baner-content {
+        padding: 2em 2em;
+    }
     .input-group input#search-query {
         width: auto!important;
     }
@@ -668,9 +1079,42 @@ div#accordionExample p {
 
  
 @media(max-width:768px){
+    .more-course-section .more-course-flex {
+        display: flex;
+        justify-content: center;
+        padding: 2em 0;
+        flex-wrap: wrap;
+    }
+    .more-course-section .more-course-flex img {
+        width: 100%;
+        text-align: center;
+    }
+
+   .video-sidbar-content2.thiscourse {
+        display: none;
+    }
+
+    .video-detail-banner-2 .inside-content {
+        padding: 2em 2em;
+    }
     .form-control {
         display: block;
         width: 100%!important;
+    }
+
+    .about-instructor .content {
+        flex: auto;
+    }
+    .about-instructor .img-sec { 
+        flex: auto;
+    }
+    .about-instructor {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 2em;
+        flex-wrap: wrap;
+        text-align: center;
     }
     select#price_selcet_2 {         
         width: 100%!important;
