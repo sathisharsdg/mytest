@@ -39,18 +39,24 @@
 </button>
 
 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#becomeinstructortext">
-   INSTRUCTOR TEXT
+   INSTRUCTOR WITH CHECKBOX
 </button>
 
 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#loginstructormodal">
   INSTRUCTOR LOGIN
 </button>
-
-
 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#bookclass">
   BOOK A CLASS
 </button>
-
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#welcomescreen">
+  WELCOME SCREEN
+</button>
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#samplevideo">
+  SAMPLE VIDEO UPLOAD
+</button>
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#thankyouscreen">
+THANKYOU
+</button>
 
   
   
@@ -384,7 +390,7 @@
    <div class="modal fade" id="becomeinstructortext" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
       <div class="modal-content">
-        <h1 class="signup-heading">Become an <span>INSTRUCTOR</span></h1>
+        <h1 class="signup-heading">Become an <span class="text-white">INSTRUCTOR</span></h1>
         <span class="line-adjust-t"></span><br>    <br>          
         <div class="modal-body" id="">
             <form>
@@ -393,14 +399,131 @@
                 </div>
                 <br>
                 <div class="intrest-section">
-                  <p>Areas of intrest</p> 
-                  <div> 
-                    <a href="#">Power ZONE <span><i class="fa fa-check" aria-hidden="true"></i></span></a> 
-                    <a href="#">Power HIT</a> 
-                    <a href="#">Power CORE</a> 
-                    <a href="#">Power ZEN</a> 
-                    <a href="#">Power CARDIO</a> 
-                  </div>        
+                  <div class="area-interest-head">
+                    <p>Cert Upload</p>
+                    <p>Excercise Type/Category</p>
+                    <p>Expired</p>
+                  </div>
+                  <div class="custom-control custom-checkbox">               
+                    <input type="file" class="custom-control-input" id="customCheck1">
+                    <label class="custom-control-label" for="customCheck1">Aerobics pZone/pCardio/Youth</label>
+                    <i class="fa fa-calendar" aria-hidden="true"></i> 
+                  </div>
+                  <div class="custom-control custom-checkbox">               
+                    <input type="file" class="custom-control-input" id="customCheck1">
+                    <label class="custom-control-label" for="customCheck1">Bokwa pCardio/pDance                    </label>
+                    <i class="fa fa-calendar" aria-hidden="true"></i> 
+                  </div>
+                  <div class="custom-control custom-checkbox">               
+                    <input type="files" class="custom-control-input" id="customCheck1">
+                    <label class="custom-control-label" for="customCheck1">Bolly Dazz pDance</label>
+                    <i class="fa fa-calendar" aria-hidden="true"></i> 
+                  </div>
+                  <div class="custom-control custom-checkbox">               
+                    <input type="checkbox" class="custom-control-input" id="customCheck1">
+                    <label class="custom-control-label" for="customCheck1">Cardio Dance pCardio/pDanceh</label>
+                    <i class="fa fa-calendar" aria-hidden="true"></i> 
+                  </div>
+                  <div class="custom-control custom-checkbox">               
+                    <input type="checkbox" class="custom-control-input" id="customCheck1">
+                    <label class="custom-control-label" for="customCheck1">Chair Zumba Senior</label>
+                    <i class="fa fa-calendar" aria-hidden="true"></i> 
+                  </div>
+                  <div class="custom-control custom-checkbox">               
+                    <input type="checkbox" class="custom-control-input" id="customCheck1">
+                    <label class="custom-control-label" for="customCheck1">Circuit Training pCardio/pHIIT</label>
+                    <i class="fa fa-calendar" aria-hidden="true"></i> 
+                  </div>
+                  <div class="custom-control custom-checkbox">               
+                    <input type="checkbox" class="custom-control-input" id="customCheck1">
+                    <label class="custom-control-label" for="customCheck1">Kickboxing pCardio/pHIIT</label>
+                    <i class="fa fa-calendar" aria-hidden="true"></i> 
+                  </div>
+                  <div class="custom-control custom-checkbox">               
+                    <input type="checkbox" class="custom-control-input" id="customCheck1">
+                    <label class="custom-control-label" for="customCheck1">Kkardiop pCardio/pDance</label>
+                    <i class="fa fa-calendar" aria-hidden="true"></i> 
+                  </div>
+                  <div class="custom-control custom-checkbox">               
+                    <input type="checkbox" class="custom-control-input" id="customCheck1">
+                    <label class="custom-control-label" for="customCheck1">KPopX Fitness pCardio/pDance</label>
+                  </div>
+                  <div class="custom-control custom-checkbox">               
+                    <input type="checkbox" class="custom-control-input" id="customCheck1">
+                    <label class="custom-control-label" for="customCheck1">KpopX Lite pZone/pCardio/Senior</label>
+                  </div>
+                  <div class="custom-control custom-checkbox">               
+                    <input type="checkbox" class="custom-control-input" id="customCheck1">
+                    <label class="custom-control-label" for="customCheck1">Line Dance pZone/pCardio/Senior</label>
+                  </div>
+                  <div class="custom-control custom-checkbox">               
+                    <input type="checkbox" class="custom-control-input" id="customCheck1">
+                    <label class="custom-control-label" for="customCheck1">Low Impact Aerobics pZone/Senior</label>
+                  </div>
+                  <div class="custom-control custom-checkbox">               
+                    <input type="checkbox" class="custom-control-input" id="customCheck1">
+                    <label class="custom-control-label" for="customCheck1">Masala Bhangra pDance</label>
+                  </div>
+                  <div class="custom-control custom-checkbox">               
+                    <input type="checkbox" class="custom-control-input" id="customCheck1">
+                    <label class="custom-control-label" for="customCheck1">Pilates pZone/pZEN/Senior/Youth</label>
+                  </div>
+                  <div class="custom-control custom-checkbox">               
+                    <input type="checkbox" class="custom-control-input" id="customCheck1">
+                    <label class="custom-control-label" for="customCheck1">Piloxing pCardio/pHGIIT</label>
+                  </div>
+                  <div class="custom-control custom-checkbox">               
+                    <input type="checkbox" class="custom-control-input" id="customCheck1">
+                    <label class="custom-control-label" for="customCheck1">Qigong Pzone/Senior</label>
+                  </div>
+                  <div class="custom-control custom-checkbox">               
+                    <input type="checkbox" class="custom-control-input" id="customCheck1">
+                    <label class="custom-control-label" for="customCheck1">Salsation pDance</label>
+                  </div>
+                  <div class="custom-control custom-checkbox">               
+                    <input type="checkbox" class="custom-control-input" id="customCheck1">
+                    <label class="custom-control-label" for="customCheck1">Stretch Band Exercise Pzone/Youth</label>
+                  </div>
+                  <div class="custom-control custom-checkbox">               
+                    <input type="checkbox" class="custom-control-input" id="customCheck1">
+                    <label class="custom-control-label" for="customCheck1">Tai Chi Pzen/Senior</label>
+                  </div>
+                  <div class="custom-control custom-checkbox">               
+                    <input type="checkbox" class="custom-control-input" id="customCheck1">
+                    <label class="custom-control-label" for="customCheck1">Tai Ji Quan for Beginners Pzen/Senior</label>
+                  </div>
+                  <div class="custom-control custom-checkbox">               
+                    <input type="checkbox" class="custom-control-input" id="customCheck1">
+                    <label class="custom-control-label" for="customCheck1">U-Jam Fitness pCardio</label>
+                  </div>
+                  <div class="custom-control custom-checkbox">               
+                    <input type="checkbox" class="custom-control-input" id="customCheck1">
+                    <label class="custom-control-label" for="customCheck1">Yoga pZen</label>
+                  </div>
+                  <div class="custom-control custom-checkbox">               
+                    <input type="checkbox" class="custom-control-input" id="customCheck1">
+                    <label class="custom-control-label" for="customCheck1">Yoga Pzen/Senior</label>
+                  </div>
+                  <div class="custom-control custom-checkbox">               
+                    <input type="checkbox" class="custom-control-input" id="customCheck1">
+                    <label class="custom-control-label" for="customCheck1">Yogalates pZen</label>
+                  </div>
+                  <div class="custom-control custom-checkbox">               
+                    <input type="checkbox" class="custom-control-input" id="customCheck1">
+                    <label class="custom-control-label" for="customCheck1">Yogalates Pzen/Senior</label>
+                  </div>
+                  <div class="custom-control custom-checkbox">               
+                    <input type="checkbox" class="custom-control-input" id="customCheck1">
+                    <label class="custom-control-label" for="customCheck1">Zumba pDance</label>
+                  </div>
+                  <div class="custom-control custom-checkbox">               
+                    <input type="checkbox" class="custom-control-input" id="customCheck1">
+                    <label class="custom-control-label" for="customCheck1">Zumba Gold pDance/ Senior</label>
+                  </div>
+                  <div class="custom-control custom-checkbox">               
+                    <input type="checkbox" class="custom-control-input" id="customCheck1">
+                    <label class="custom-control-label" for="customCheck1">Zumba Kids pDance/ Youth</label>
+                  </div>
                 </div>
                     <br>
                 <div class="text-center next-inst-btn">
@@ -504,6 +627,85 @@
     </div>
   </div>  
  <!--book class modal start modal end-->
+
+
+
+ <!-- welcome screen modal start-->
+ <div class="modal fade" id="welcomescreen" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <h1 class="Sign-heading text-center">E3 <span class="white-text">Fitness</span></h1> <br>
+     
+      <div class="modal-body welcome-screen relative">
+       <h2>Good Day Trainers ...</h2>        
+
+       <h1>E3 Fitness Welcomes you !</h1></br></br>
+       <button class="text-right btn btn-info"> I agree</button>
+      </div> 
+    </div>
+  </div>
+</div>  
+  <!-- welcome screen modal end-->
+
+
+
+
+
+<!-- sample video upload  modal start-->
+  <div class="modal fade" id="samplevideo" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">         
+        <div class="modal-body sample-video-upload-section">
+           <h2>Sample video upload (not more than 5 mins) </h2> 
+           <small>Online training requires a unique approach to engaging the participants and audiences . We are looking
+            for Trainers to interact , engage and entertain their viewers. Please upload a sample video that showcases
+            your ability</small> </br></br>
+            
+            <div class="select-option">
+              <label class="btn btn-default">
+                  <i class="fa fa-plus" aria-hidden="true"></i>
+                  <input type="file" style="display: none;">
+              </label>            
+            </div></br>
+
+            <h2>Certificate upload </h2> 
+            <small>Please combine and PDF your certication into 1 le. FIle upload must not be bigger than 3mb.
+              Trainers will only be able to conduct training courses that they are certied in . </small> </br></br>
+             
+             <div class="select-option">
+               <label class="btn btn-default">
+                   <i class="fa fa-plus" aria-hidden="true"></i>
+                   <input type="file" style="display: none;">
+               </label>            
+             </div>
+        </div> 
+      </div>
+    </div>
+  </div>  
+    <!-- sample video upload  modal end-->
+
+
+    <!-- Thankyou screen modal start-->
+ <div class="modal fade" id="thankyouscreen" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <h1 class="Sign-heading text-center">E3 <span class="white-text">Fitness</span></h1> <br>
+     
+       <div class="thankyou-content"> 
+<p>Thank you for your application, We are currently
+  processig your application. You wil be notified with
+  regards to the next round of interview once we have
+  reviewed your documents.</p></br>
+  <small>Best Regards</small>
+  <h4>E3 Fitness Team</h4></br></br>
+  <button class="btn btn-info">Done</button>
+       </div>
+    </div>
+  </div>
+</div>  
+  <!-- Thankyou screen modal end-->
+
+
  
 
   <script src="js/wow.min.js"></script>

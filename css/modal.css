@@ -455,7 +455,7 @@ div#becomeinstructortext  .sign-in {
 }
 .intrest-section div {
     display: flex;
-    font-size: 1.1rem;
+    justify-content: space-between;
 }
 .intrest-section div a {
     color: #fff;
@@ -466,6 +466,52 @@ div#becomeinstructortext  .sign-in {
 .intrest-section div a:first-child {
     background-color: antiquewhite;
     color: #00a99d;
+}
+
+.intrest-section div label.custom-control-label {
+    color: #ffff;
+    font-size: 1.5rem;
+    position: absolute;
+    left: 6em;
+}
+.intrest-section .custom-control-label::before {
+    position: absolute;
+    top: 0.6rem;
+    left: -6.8rem;
+    display: block;
+    width: 1.2rem;
+    height: 1.2rem;
+    pointer-events: none;
+    content: "";
+    background-color: #fff;
+    border: #adb5bd solid 1px;
+}
+.intrest-section .custom-control {
+    padding: .7em .5em;
+}
+
+#becomeinstructortext .intrest-section {
+    height: 20rem;
+    overflow-y: scroll;
+    padding: 1em;
+}
+
+
+ 
+
+::-webkit-scrollbar
+{
+	width: 4px;
+	background-color: #00a99d;
+}
+ 
+
+
+.intrest-section div  .fa-calendar:before {
+    content: "\f073";
+    color: #fff;
+    position: absolute;
+    right: 1em;
 }
 @media(max-width:520px){
     .intrest-section div {
@@ -575,3 +621,128 @@ div#extra  option.others {
     color: #000;
 }
 /*book a class modal CSS Endt*/
+
+
+/*Welcome screen CSS Start*/
+
+div#welcomescreen .modal-content {
+    background-color: #151515de;
+    padding: 2rem;
+    margin: 0 auto;
+    width: 90%;
+    min-height: 60vh;
+}
+ 
+
+div#welcomescreen h1.Sign-heading.text-center {
+    color: #00a99d;
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 1rem;
+    text-align: center;
+}
+div#welcomescreen .welcome-screen h2 {
+    color: #fff;
+    font-size: 2rem;
+}
+div#welcomescreen .welcome-screen h1 {
+    color: #fff;
+    font-size: 3rem;     
+    font-weight: 800;
+}
+.modal-body.welcome-screen{
+    padding: 6rem 2em;
+}
+.modal-body.welcome-screen button{
+ 
+padding: .3em 1em;
+bottom: 0;
+font-size: 2rem;
+float:right;
+}
+/*Welcome screen CSS End*/
+
+
+
+/*Sample video  upload screen CSS Start*/
+div#samplevideo .modal-content {
+    background-color: #151515de;
+    padding: 2rem;
+    margin: 0 auto;
+    width: 100%;
+    min-height: 80vh;
+}
+
+.sample-video-upload-section h2 {
+    color: #fff;
+    font-size: 2.2rem;
+}
+.sample-video-upload-section small{
+    color: #fff;
+}
+.sample-video-upload-section .select-option {
+    background-color: white;
+    padding: .5em 1em;
+}
+.sample-video-upload-section .select-option label.btn.btn-default {
+    border:1px solid #b7a6a6;
+    padding: 2em 2em;
+}
+@media (min-width: 576px){
+    div#samplevideo .modal-dialog {
+    max-width: 600px;
+    margin: 1.75rem auto;
+}
+}
+
+/*Sample video upload  screen CSS End*/
+
+
+
+/*Thank you  screen CSS Start*/
+div#thankyouscreen .modal-content {
+    background-color: #151515de;
+    padding: 2rem;
+    margin: 0 auto;
+    width: 100%;
+    min-height: 80vh;
+}
+
+div#thankyouscreen h1.Sign-heading.text-center {
+    color: #00a99d;
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 1rem;
+    text-align: center;
+}
+.thankyou-content p {
+    color: #fff;     
+    padding: 1em;
+}
+.thankyou-content small {
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 0 1em;
+}
+.thankyou-content h4{
+    color: #fff;
+    font-size: 2rem;
+    padding: 0 0.7em;
+}
+
+.thankyou-content button{ 
+    padding: .3em 1em;
+    bottom: 0;
+    font-size: 2rem;
+    float:right;
+}
+
+@media (min-width: 576px){
+.thankyou-content .modal-dialog {
+    max-width: 450px;
+    margin: 1.75rem auto;
+}
+}
+/*Thank you  screen CSS End*/
