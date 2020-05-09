@@ -58,6 +58,13 @@
 THANKYOU
 </button>
 
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#snapshot">
+  SNAPSHOT
+  </button>
+
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#selfie_img">
+IMAGE CAPTURE    </button>
+
   
   
   <!-- Modal -->
@@ -705,7 +712,39 @@ THANKYOU
 </div>  
   <!-- Thankyou screen modal end-->
 
+ <!-- snapshot screen modal start-->
+ <div class="modal fade" id="snapshot" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content text-center">   
+      <div class="modal-body welcome-screen relative ">
+       <h1 class="text-center white-text">Well Done!</h1>    </br>    
+       <img src="images/instagram.png" class="img-fluid text-center" alt=""></br></br> 
+      <small class="white-text insta-sml">Glad you've had a great sweat session! how about
+        snapping and sharing a selfe of your completed class!</small></br></br>
+        <img src="images/fb-icon.svg" class="img-fluid insta-fb" alt="">       
+      </div> 
+    </div>
+  </div>
+</div>  
+  <!-- snaposhot screen modal end-->
 
+
+
+  
+ <!-- image capture screen modal start-->
+ <div class="modal fade" id="selfie_img" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content text-center">   
+      <div class="modal-body welcome-screen relative ">
+        <img src="images/selfie.jpg" alt="" class="img-fluid"> 
+        <div class="relative">
+           <span class="red-circle"><i class="fa fa-circle-o" aria-hidden="true"></i></span>
+        </div>    
+      </div> 
+    </div>
+  </div>
+</div>  
+  <!-- image capture screen modal end-->
  
 
   <script src="js/wow.min.js"></script>

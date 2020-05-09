@@ -746,3 +746,52 @@ div#thankyouscreen h1.Sign-heading.text-center {
 }
 }
 /*Thank you  screen CSS End*/
+
+
+
+/*snapshot screen CSS Start*/
+div#snapshot .modal-content {
+    background-color: #151515de;
+    padding: 2rem;
+    margin: 0 auto;
+    width: 100%;
+    min-height: 80vh;
+}
+div#snapshot .insta-fb {
+    margin: 0 11em;
+    width: 1.5em;
+}
+div#snapshot .insta-sml {
+    font-size: 1.5rem;   
+}
+
+/*snapshot screen CSS End*/
+
+/*images capture  screen CSS Start*/
+div#selfie_img .modal-content {
+    background-color: #151515de;
+    padding: .5rem;
+    margin: 0 auto;
+    width: 100%;
+    min-height: 80vh;
+}
+
+span.red-circle {
+    color: red;
+    font-size: 4rem;
+    position: absolute;
+    top: 0em;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    border: 7px solid red;
+    border-radius: 50%;
+    width: 7rem;
+    height: 1.8em;
+}
+
+@media (min-width: 576px){
+    div#selfie_img .modal-dialog {
+    max-width: 592px;    
+}
+}
+/*images capture  screen CSS End*/
