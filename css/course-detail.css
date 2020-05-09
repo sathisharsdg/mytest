@@ -413,7 +413,7 @@ h2.subscribed span {
 .container.subscrbe-container {
     padding: 2em 0;
     height: 85vh;
-    overflow: scroll;
+    /* overflow: scroll; */
 }
 /*subscribers CSS end */
 
@@ -573,13 +573,13 @@ div#accordionExample p {
 }
 .video-sidbar-content {
     position: absolute;
-    right: 3em;
+    right: 1em;
     top: 9em;
     transition: all .1s ease;
 }
 .fixed-class {
     position: fixed;
-    right: 3em;
+    right: 1em;
     top: 0;
     transition: all .1s ease;
 }
@@ -984,30 +984,28 @@ a#close-order-item {
 /*checkout page CSS End*/
  
 /*media css Start */
-
-
-@media(max-width:1200px){
-    ul.side-link-desktop {
-        display: none;
-    }
-    ul.side-link-mobile {
-        display: flex;
-        justify-content: space-between;
+@media(max-width:1600px){
+    ul.side-link-desktop li {
         padding: 0 1em;
     }
+}
+
+@media(max-width:1200px){     
     section.video-detail-banner {     
         height: 30vh;       
     }
     .pay-finalbtn {
         margin: auto;
     }
-}
-
-@media(min-width:1200px){
-    ul.side-link-mobile {
-        display: none;      
+    .video-sidbar-content2 {
+        position: absolute;
+        right: 3em;
+        top: 35%;
+        transition: all .1s ease;
     }
 }
+
+ 
 @media(max-width:920px){
     .video-detail-banner img.img-fluid {
         padding: 2em 0;
@@ -1038,26 +1036,7 @@ a#close-order-item {
     div#pwd-change {
         width: 100%;
     }
- 
-    ul.side-link-mobile {
-        /* display: flex;
-        justify-content: center; */
-    }
-    ul.side-link-mobile {
-        display: flex;
-        justify-content: center;
-        padding: 0;
-    }
-    ul.side-link-mobile li a img {
-        font-size: 2.3rem;
-        color: #fff;
-        padding: .5em .3em;
-    }
-    .left-content {
-        background-color: #000000;
-        padding: 0;
-        height: auto;
-    }
+
    
     label.label-top {
         display: flex;
@@ -1084,16 +1063,49 @@ a#close-order-item {
         justify-content: center;
         padding: 2em 0;
         flex-wrap: wrap;
+    } 
+    #accordionExample .btn.btn-link {
+        font-size: 1.2rem;
+        color: #454545;
+    }
+    .video-sidbar-content2 {
+        position: static!important;
+        right: 3em;
+        top: 40%;
+        transition: all .1s ease;
+        padding: 0;
+    }
+    ul.side-link-desktop li {
+        padding: 0 1em;
+    }
+    ul.side-link-desktop a {
+        color: #fff;
+        font-size: 1.4rem;
+        line-height: 5rem;
     }
     .more-course-section .more-course-flex img {
         width: 100%;
         text-align: center;
     }
-
-   .video-sidbar-content2.thiscourse {
-        display: none;
+    .fixed-class {
+        position: static;
+        right: 1em;
+        top: 0;
+        transition: all .1s ease;
+    }
+    .fixed-class2 {
+        position: static;
+        right: 1em;
+        top: 0;
+        transition: all .1s ease;
     }
 
+    .video-sidbar-content {
+        position: static;
+        right: 1em;
+        top: 9em;
+        transition: all .1s ease;
+    }
     .video-detail-banner-2 .inside-content {
         padding: 2em 2em;
     }
@@ -1144,15 +1156,69 @@ a#close-order-item {
     }
 }
 
+ @media(min-width:521px){
+    ul.side-link-mobile {
+        display: none;        
+    }
+ }
+
+ 
 @media(max-width:520px){
     .detail-head h1 {
         flex: .6;
         font-size: 1.6rem;
         padding: 1em;
     }
+    .video-sidbar-content {
+        position: static;
+        right: 1em;
+        top: 9em;
+        transition: all .1s ease;
+    }
+    .left-content {
+        background-color: #000000;
+        padding: 0;
+        height: auto;
+    }
+    ul.side-link-desktop {
+        display: none;
+    }
+    ul.side-link-mobile {
+        display: flex;
+    justify-content: space-between;
+    padding: 0 4em;
+    }
     .detail-head h3 {
         flex: 1;
         font-size: 1.6rem;
+    }
+    .Pricing-section form.course-title-form {
+        height: 85vh;
+        overflow-y: inherit;
+    }
+    .container.subscrbe-container {
+        padding: 2em 0;
+        height: 85vh;
+        overflow-y: inherit;
+    }  
+    div#main-course-search-results {
+        height: 66vh;
+        overflow-y: inherit;
+    }
+    
+    .profile-inner-section {
+        width: 100%;
+        height: 80vh;
+        overflow-y: inherit;
+    }
+    div#main-course-search-results {
+        height: 66vh;
+        overflow-y: inherit;
+    }
+    
+    .create-sec-container-main {
+        height: 82vh;
+        overflow-y: inherit;
     }
 }
 /*media css end */
