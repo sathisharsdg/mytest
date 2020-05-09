@@ -596,6 +596,93 @@ section.latest-feed p.text-center {
 /* BLOG PAGE CSS */
 
 
+/*Leader-board CSS Start */
+.leader-board-section-main .banner{
+background-image: url(images/leader-bg.jpg);
+background-attachment: fixed;
+height: 100vh;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+} 
+.leader-board-section {
+    position: absolute!important;
+    right: 4em;
+    top: 10%;
+    background-color: #252525;
+     
+}
+.head-leader h1 {
+    padding: .5em .5em;
+    background-color: #515252;
+    font-size: 2.8rem;
+    color: #fff;
+}
+.inner-full-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+.inner-full-details h4 {
+    color: #fff;
+    padding: .3em 1em;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+.inner-full-details2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    padding: 1em 2em;
+    background-color: #171717;
+}
+.inner-full-details3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    padding: 1em 2em;
+    background-color: #292929;
+}
+small.in-number {
+    font-size: 2rem;
+    flex: 1.5;
+}
+.inner-flex {
+    flex: 5;
+    padding: 0 1em;
+}
+small.aprt-sec-small {
+    padding: 0px 1em;
+}
+.leade-prof-img {
+    width: 15%;
+}
+h1.lead-score {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+h3.name-list {
+    font-size: 1.8rem;
+}
+@media(max-width:1200px){
+    small.aprt-sec-small {
+        padding: 0px 0em;
+    }
+    .inner-full-details h4 {
+        color: #fff;
+        padding: .3em .5em;
+        font-weight: 500;
+        font-size: 1.5rem;
+    }
+}
+/*Leader-board CSS End */
+
+
+
 /*footer section start */
 ul.footer-links {
     display: flex;
