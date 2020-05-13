@@ -31,9 +31,26 @@ $(document).ready(function() {
 	  } else {
 		$(".video-sidbar-content2").removeClass("fixed-class2");
 	  }	  
-	});
+	}); 
   });
 
   //Slider JS Starts 
+
+
+  //Filter dropdown
+  $(document).ready(function() {
+	 $(".filter-section").click(function(){
+		 $(".filter-content").toggle();
+	 })
+  });
+  $(document).mouseup(function(e) 
+{
+    var container = $(".filter-content");
+    // if the target of the click isn't the container nor a descendant of the container
+    if (!container.is(e.target) && container.has(e.target).length === 0) 
+    {
+        container.hide();
+    }
+});
 
   

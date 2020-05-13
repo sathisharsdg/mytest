@@ -682,7 +682,66 @@ h3.name-list {
 /*Leader-board CSS End */
 
 
+/* filter option css Start */
+.accordion .card-header:after {
+    font-family: 'FontAwesome';  
+    content: "\f106";
+    float: right; 
+}
+.accordion .card-header.collapsed:after {
+    /* symbol for "collapsed" panels */
+    content: "\f107"; 
+}
+/* filter op[tion css Start */
+.filter-menu {
+    position: absolute;
+    left: 25em;
+    top: 2em;
+    z-index: 99999!important;
+}
+h2.filter-section {
+    color: rgb(88, 88, 88);
+    position: absolute;
+    left: 12em;
+    top: 1em;
+    background-color: #e6e6e6;
+    padding: .7em 1em;
+    cursor: pointer;
+}
+div#accordionfilter {
+    position: absolute;
+    left: 15em;
+    width: 15%;
+    top: 4em;
+    z-index: 99;
+}
+.filter-content {
+    display: none;
+}
+.filter-content p {
+    font-size: 1.2rem;
+    margin-bottom: .5em;
+}
+@media(max-width:768px){
+      h2.filter-section {
+        color: rgb(88, 88, 88);
+        position: absolute;
+        left: 10em;
+        top: 2em;
+        background-color: #e6e6e6;
+        padding: .7em 1em;
+        cursor: pointer;
+    }
+    div#accordionfilter {
+        position: absolute;
+        left: 12.4em;
+        width: auto;
+        top: 5em;
+        z-index: 99;
+    }
+}
 
+/*filter option css  END */
 /*footer section start */
 ul.footer-links {
     display: flex;

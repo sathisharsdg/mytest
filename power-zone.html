@@ -8,9 +8,10 @@
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/bootstrap.min.css"> 
     <link rel="stylesheet" href="css/media.css">  
-    <script src="js/google.js"></script>
-    <script src="js/custom.js"></script>
+  
+   
     <script src="https://use.fontawesome.com/36667026bc.js"></script>
+    
     
   </head>
   <body>
@@ -90,6 +91,34 @@
         <div class="row">
          <div class="col-md-12 col-lg-12 col-sm-12">
           <h1 class=" light-blue">Upcoming Classes</h1>
+          
+          <div class="relative">
+            <h2 class="filter-section">Filter By</h2>
+            <div class="filter-content">
+              <div id="accordionfilter" class="accordion">
+                <div class="card mb-0">
+                    <div class="card-header collapsed" data-toggle="collapse" href="#collapsefilter1">
+                        <a class="card-title">Trainer Name </a>
+                    </div>
+                    <div id="collapsefilter1" class="card-body collapse" data-parent="#accordionfilter">
+                        <p>John Kennedy</p>
+                        <p>Carlos Roldan</p>
+                    </div>
+                    <div class="card-header collapsed" data-toggle="collapse" data-parent="#accordionfilter" href="#collapsefilter2">
+                        <a class="card-title"> Excercise Type</a>
+                    </div>
+                    <div id="collapsefilter2" class="card-body collapse" data-parent="#accordiofiltern">
+                        <p>Running Excercise</p>
+                        <p>Jumping Excercise</p>
+                    </div>
+                
+                </div>
+            </div>
+            </div>
+    
+          </div>
+    
+          
          </div>
         </div> 
         </div>
@@ -205,9 +234,17 @@
       </div>
     </div>
    </section>
-   <!--footer section end-->    
+   <!--footer section end--> 
+   <script src="js/google.js"></script>
+ 
   <script src="js/wow.min.js"></script>
-  <script>new WOW().init();</script>
+  <script>new WOW().init();</script> 
+  
+  <script src="js/custom.js"></script>  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
   <script src="js/bootstrap.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>  
+ 
+ 
   </body>
 </html>
