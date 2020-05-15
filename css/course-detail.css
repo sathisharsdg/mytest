@@ -659,7 +659,7 @@ div#accordionExample p {
 .video-sidbar-content2 {
     position: absolute;
     right: 3em;
-    top: 65%;
+    top: 80%;
     transition: all .1s ease;
 }
 
@@ -668,6 +668,9 @@ div#accordionExample p {
     right: 3em;
     top: 10%;
     transition: all .1s ease;
+    height: 45rem;
+    overflow-y: scroll;
+    padding-right: 0;
 }
 .video-detail-banner-2 .inside-content {
     padding: 2em 0;
